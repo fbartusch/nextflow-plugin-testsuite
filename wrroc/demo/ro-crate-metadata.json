@@ -1,0 +1,2372 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": [
+                {
+                    "@id": "https://w3id.org/ro/crate/1.1"
+                },
+                {
+                    "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+                }
+            ]
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "conformsTo": [
+                {
+                    "@id": "https://w3id.org/ro/wfrun/process/0.1"
+                },
+                {
+                    "@id": "https://w3id.org/ro/wfrun/workflow/0.1"
+                },
+                {
+                    "@id": "https://w3id.org/ro/wfrun/provenance/0.1"
+                },
+                {
+                    "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+                }
+            ],
+            "name": "Workflow run of main.nf",
+            "description": "An nf-core demo pipeline",
+            "hasPart": [
+                {
+                    "@id": "main.nf"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/bc/6100a4f354202a13bdef4ac26796e7/sample2_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/4f/105cffba4a6a0f7957faaccfc667ff/sample2_R2.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/30/51fc62a51c205523105370f0a7a782/sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/88/9bd370508f0b0f0be8acd1f058a167/sample1_R2.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/tmp/43/fe1ccc16e3c21fd0705a6e46575a89/methods_description_mqc.yaml"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/tmp/98/b41d8c84c4d4dde4f632dd7eee5c08/workflow_summary_mqc.yaml"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/demo/pipeline_info/nf_core_pipeline_software_mqc_versions.yml"
+                },
+                {
+                    "@id": "/home/felix/nf-core/demo/1_0_0/assets/multiqc_config.yml"
+                },
+                {
+                    "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R1.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R2.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE3_SE/SAMPLE3_SE_sample2_R1.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE3_SE/SAMPLE3_SE_sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R2.fastq.gz"
+                },
+                {
+                    "@id": "multiqc/multiqc_plots"
+                },
+                {
+                    "@id": "multiqc/multiqc_data"
+                },
+                {
+                    "@id": "multiqc/multiqc_report.html"
+                }
+            ],
+            "mainEntity": {
+                "@id": "main.nf"
+            },
+            "mentions": [
+                {
+                    "@id": "#101e3cf2-8d0f-456d-a9c5-ff69a1705fc5"
+                },
+                {
+                    "@id": "#1b9cb64b48ad352570ffcbef6262a3d5"
+                },
+                {
+                    "@id": "#77139a15b3182addecdc243f30fdbb98"
+                },
+                {
+                    "@id": "#ea002b46b0fc19f96329ac1d833c2905"
+                },
+                {
+                    "@id": "#78d9829316174d7285346d7bd0f6b26b"
+                },
+                {
+                    "@id": "#2b37fd3dc1f529272a42147dcf9b563e"
+                },
+                {
+                    "@id": "#84e316e306fc252cb3e50ada4717c0a6"
+                },
+                {
+                    "@id": "#3cc9252e1cb3b13ac2d03354898c49ab"
+                }
+            ],
+            "license": "Apache-2.0"
+        },
+        {
+            "@id": "https://w3id.org/ro/wfrun/process/0.1",
+            "@type": "CreativeWork",
+            "name": "Process Run Crate",
+            "version": "0.1"
+        },
+        {
+            "@id": "https://w3id.org/ro/wfrun/workflow/0.1",
+            "@type": "CreativeWork",
+            "name": "Workflow Run Crate",
+            "version": "0.1"
+        },
+        {
+            "@id": "https://w3id.org/ro/wfrun/provenance/0.1",
+            "@type": "CreativeWork",
+            "name": "Provenance Run Crate",
+            "version": "0.1"
+        },
+        {
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
+            "@type": "CreativeWork",
+            "name": "Workflow RO-Crate",
+            "version": "1.0"
+        },
+        {
+            "@id": "main.nf",
+            "@type": [
+                "File",
+                "SoftwareSourceCode",
+                "ComputationalWorkflow",
+                "HowTo"
+            ],
+            "name": "main.nf",
+            "programmingLanguage": {
+                "@id": "https://w3id.org/workflowhub/workflow-ro-crate#nextflow"
+            },
+            "hasPart": [
+                {
+                    "@id": "#Script_7e295c2e0487cfcb@ff1f465"
+                },
+                {
+                    "@id": "#Script_ca3483cfbba7127f@438aaa9f"
+                },
+                {
+                    "@id": "#Script_11299cb12a111d0f@419f0ea"
+                }
+            ],
+            "input": [
+                {
+                    "@id": "#input"
+                },
+                {
+                    "@id": "#genome"
+                },
+                {
+                    "@id": "#igenomes_base"
+                },
+                {
+                    "@id": "#igenomes_ignore"
+                },
+                {
+                    "@id": "#multiqc_config"
+                },
+                {
+                    "@id": "#multiqc_title"
+                },
+                {
+                    "@id": "#multiqc_logo"
+                },
+                {
+                    "@id": "#max_multiqc_email_size"
+                },
+                {
+                    "@id": "#multiqc_methods_description"
+                },
+                {
+                    "@id": "#skip_trim"
+                },
+                {
+                    "@id": "#outdir"
+                },
+                {
+                    "@id": "#publish_dir_mode"
+                },
+                {
+                    "@id": "#email"
+                },
+                {
+                    "@id": "#email_on_fail"
+                },
+                {
+                    "@id": "#plaintext_email"
+                },
+                {
+                    "@id": "#monochrome_logs"
+                },
+                {
+                    "@id": "#hook_url"
+                },
+                {
+                    "@id": "#help"
+                },
+                {
+                    "@id": "#version"
+                },
+                {
+                    "@id": "#pipelines_testdata_base_path"
+                },
+                {
+                    "@id": "#config_profile_name"
+                },
+                {
+                    "@id": "#config_profile_description"
+                },
+                {
+                    "@id": "#custom_config_version"
+                },
+                {
+                    "@id": "#custom_config_base"
+                },
+                {
+                    "@id": "#config_profile_contact"
+                },
+                {
+                    "@id": "#config_profile_url"
+                },
+                {
+                    "@id": "#max_memory"
+                },
+                {
+                    "@id": "#max_cpus"
+                },
+                {
+                    "@id": "#max_time"
+                },
+                {
+                    "@id": "#validationFailUnrecognisedParams"
+                },
+                {
+                    "@id": "#validation-fail-unrecognised-params"
+                },
+                {
+                    "@id": "#validationLenientMode"
+                },
+                {
+                    "@id": "#validation-lenient-mode"
+                },
+                {
+                    "@id": "#validationSchemaIgnoreParams"
+                },
+                {
+                    "@id": "#validation-schema-ignore-params"
+                },
+                {
+                    "@id": "#validationShowHiddenParams"
+                },
+                {
+                    "@id": "#validation-show-hidden-params"
+                },
+                {
+                    "@id": "#validate_params"
+                },
+                {
+                    "@id": "#genomes"
+                },
+                {
+                    "@id": "#fasta"
+                },
+                {
+                    "@id": "#validationSkipDuplicateCheck"
+                },
+                {
+                    "@id": "#validation-skip-duplicate-check"
+                },
+                {
+                    "@id": "#validationS3PathCheck"
+                },
+                {
+                    "@id": "#validation-S3Path-check"
+                },
+                {
+                    "@id": "#monochromeLogs"
+                },
+                {
+                    "@id": "#monochrome-logs"
+                }
+            ],
+            "output": [
+                
+            ],
+            "step": [
+                {
+                    "@id": "main.nf#main/NFCORE_DEMO:DEMO:SEQTK_TRIM"
+                },
+                {
+                    "@id": "main.nf#main/NFCORE_DEMO:DEMO:FASTQC"
+                },
+                {
+                    "@id": "main.nf#main/NFCORE_DEMO:DEMO:MULTIQC"
+                }
+            ]
+        },
+        {
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate#nextflow",
+            "@type": "ComputerLanguage",
+            "name": "Nextflow",
+            "identifier": "https://www.nextflow.io/",
+            "url": "https://www.nextflow.io/",
+            "version": "23.10.0"
+        },
+        {
+            "@id": "#Script_7e295c2e0487cfcb@ff1f465",
+            "@type": "SoftwareApplication",
+            "name": "NFCORE_DEMO:DEMO:SEQTK_TRIM"
+        },
+        {
+            "@id": "#Script_ca3483cfbba7127f@438aaa9f",
+            "@type": "SoftwareApplication",
+            "name": "NFCORE_DEMO:DEMO:FASTQC"
+        },
+        {
+            "@id": "#Script_11299cb12a111d0f@419f0ea",
+            "@type": "SoftwareApplication",
+            "name": "NFCORE_DEMO:DEMO:MULTIQC"
+        },
+        {
+            "@id": "#input",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "input"
+        },
+        {
+            "@id": "#genome",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "genome"
+        },
+        {
+            "@id": "#igenomes_base",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "igenomes_base"
+        },
+        {
+            "@id": "#igenomes_ignore",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "igenomes_ignore"
+        },
+        {
+            "@id": "#multiqc_config",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "multiqc_config"
+        },
+        {
+            "@id": "#multiqc_title",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "multiqc_title"
+        },
+        {
+            "@id": "#multiqc_logo",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "multiqc_logo"
+        },
+        {
+            "@id": "#max_multiqc_email_size",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "max_multiqc_email_size"
+        },
+        {
+            "@id": "#multiqc_methods_description",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "multiqc_methods_description"
+        },
+        {
+            "@id": "#skip_trim",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "skip_trim"
+        },
+        {
+            "@id": "#outdir",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "outdir"
+        },
+        {
+            "@id": "#publish_dir_mode",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "publish_dir_mode"
+        },
+        {
+            "@id": "#email",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "email"
+        },
+        {
+            "@id": "#email_on_fail",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "email_on_fail"
+        },
+        {
+            "@id": "#plaintext_email",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "plaintext_email"
+        },
+        {
+            "@id": "#monochrome_logs",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "monochrome_logs"
+        },
+        {
+            "@id": "#hook_url",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "hook_url"
+        },
+        {
+            "@id": "#help",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "help"
+        },
+        {
+            "@id": "#version",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "version"
+        },
+        {
+            "@id": "#pipelines_testdata_base_path",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "pipelines_testdata_base_path"
+        },
+        {
+            "@id": "#config_profile_name",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "config_profile_name"
+        },
+        {
+            "@id": "#config_profile_description",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "config_profile_description"
+        },
+        {
+            "@id": "#custom_config_version",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "custom_config_version"
+        },
+        {
+            "@id": "#custom_config_base",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "custom_config_base"
+        },
+        {
+            "@id": "#config_profile_contact",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "config_profile_contact"
+        },
+        {
+            "@id": "#config_profile_url",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "config_profile_url"
+        },
+        {
+            "@id": "#max_memory",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "max_memory"
+        },
+        {
+            "@id": "#max_cpus",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "max_cpus"
+        },
+        {
+            "@id": "#max_time",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "max_time"
+        },
+        {
+            "@id": "#validationFailUnrecognisedParams",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validationFailUnrecognisedParams"
+        },
+        {
+            "@id": "#validation-fail-unrecognised-params",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validation-fail-unrecognised-params"
+        },
+        {
+            "@id": "#validationLenientMode",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validationLenientMode"
+        },
+        {
+            "@id": "#validation-lenient-mode",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validation-lenient-mode"
+        },
+        {
+            "@id": "#validationSchemaIgnoreParams",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validationSchemaIgnoreParams"
+        },
+        {
+            "@id": "#validation-schema-ignore-params",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validation-schema-ignore-params"
+        },
+        {
+            "@id": "#validationShowHiddenParams",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validationShowHiddenParams"
+        },
+        {
+            "@id": "#validation-show-hidden-params",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validation-show-hidden-params"
+        },
+        {
+            "@id": "#validate_params",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validate_params"
+        },
+        {
+            "@id": "#genomes",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "genomes"
+        },
+        {
+            "@id": "#fasta",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "fasta"
+        },
+        {
+            "@id": "#validationSkipDuplicateCheck",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validationSkipDuplicateCheck"
+        },
+        {
+            "@id": "#validation-skip-duplicate-check",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validation-skip-duplicate-check"
+        },
+        {
+            "@id": "#validationS3PathCheck",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validationS3PathCheck"
+        },
+        {
+            "@id": "#validation-S3Path-check",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "validation-S3Path-check"
+        },
+        {
+            "@id": "#monochromeLogs",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "monochromeLogs"
+        },
+        {
+            "@id": "#monochrome-logs",
+            "@type": "FormalParameter",
+            "additionalType": "String",
+            "conformsTo": {
+                "@id": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE"
+            },
+            "description": "",
+            "name": "monochrome-logs"
+        },
+        {
+            "@id": "#703aba2d-5e76-4244-8627-55013414a75a",
+            "@type": "SoftwareApplication",
+            "name": "Nextflow 23.10.0"
+        },
+        {
+            "@id": "main.nf#main/NFCORE_DEMO:DEMO:SEQTK_TRIM",
+            "@type": "HowToStep",
+            "workExample": {
+                "@id": "#Script_7e295c2e0487cfcb@ff1f465"
+            },
+            "position": 2
+        },
+        {
+            "@id": "main.nf#main/NFCORE_DEMO:DEMO:FASTQC",
+            "@type": "HowToStep",
+            "workExample": {
+                "@id": "#Script_ca3483cfbba7127f@438aaa9f"
+            },
+            "position": 1
+        },
+        {
+            "@id": "main.nf#main/NFCORE_DEMO:DEMO:MULTIQC",
+            "@type": "HowToStep",
+            "workExample": {
+                "@id": "#Script_11299cb12a111d0f@419f0ea"
+            },
+            "position": 3
+        },
+        {
+            "@id": "#13c2102b-9d37-4e2e-aa68-03c0c25aa22b",
+            "@type": "OrganizeAction",
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "instrument": {
+                "@id": "#703aba2d-5e76-4244-8627-55013414a75a"
+            },
+            "name": "Run of Nextflow 23.10.0",
+            "object": [
+                {
+                    "@id": "#020d7efa-b627-4f55-bcb0-39801e339608"
+                },
+                {
+                    "@id": "#6e39b3e6-ed68-4147-a089-d6760db86f26"
+                },
+                {
+                    "@id": "#d83726f4-d824-4170-9f17-1822abbe92e5"
+                },
+                {
+                    "@id": "nextflow.config"
+                }
+            ],
+            "result": {
+                "@id": "#101e3cf2-8d0f-456d-a9c5-ff69a1705fc5"
+            },
+            "startTime": "2024-10-09T22:25:13.833030444+02:00",
+            "endTime": "2024-10-09T22:25:27.818203051+02:00"
+        },
+        {
+            "@id": "#101e3cf2-8d0f-456d-a9c5-ff69a1705fc5",
+            "@type": "CreateAction",
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "name": "Nextflow workflow run 101e3cf2-8d0f-456d-a9c5-ff69a1705fc5",
+            "startTime": "2024-10-09T22:25:13.833030444+02:00",
+            "endTime": "2024-10-09T22:25:27.818203051+02:00",
+            "instrument": {
+                "@id": "main.nf"
+            },
+            "object": [
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/bc/6100a4f354202a13bdef4ac26796e7/sample2_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/4f/105cffba4a6a0f7957faaccfc667ff/sample2_R2.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/30/51fc62a51c205523105370f0a7a782/sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/88/9bd370508f0b0f0be8acd1f058a167/sample1_R2.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/tmp/43/fe1ccc16e3c21fd0705a6e46575a89/methods_description_mqc.yaml"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/tmp/98/b41d8c84c4d4dde4f632dd7eee5c08/workflow_summary_mqc.yaml"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/demo/pipeline_info/nf_core_pipeline_software_mqc_versions.yml"
+                },
+                {
+                    "@id": "/home/felix/nf-core/demo/1_0_0/assets/multiqc_config.yml"
+                },
+                {
+                    "@id": "#input-pv"
+                },
+                {
+                    "@id": "#genome-pv"
+                },
+                {
+                    "@id": "#igenomes_base-pv"
+                },
+                {
+                    "@id": "#igenomes_ignore-pv"
+                },
+                {
+                    "@id": "#multiqc_config-pv"
+                },
+                {
+                    "@id": "#multiqc_title-pv"
+                },
+                {
+                    "@id": "#multiqc_logo-pv"
+                },
+                {
+                    "@id": "#max_multiqc_email_size-pv"
+                },
+                {
+                    "@id": "#multiqc_methods_description-pv"
+                },
+                {
+                    "@id": "#skip_trim-pv"
+                },
+                {
+                    "@id": "#outdir-pv"
+                },
+                {
+                    "@id": "#publish_dir_mode-pv"
+                },
+                {
+                    "@id": "#email-pv"
+                },
+                {
+                    "@id": "#email_on_fail-pv"
+                },
+                {
+                    "@id": "#plaintext_email-pv"
+                },
+                {
+                    "@id": "#monochrome_logs-pv"
+                },
+                {
+                    "@id": "#hook_url-pv"
+                },
+                {
+                    "@id": "#help-pv"
+                },
+                {
+                    "@id": "#version-pv"
+                },
+                {
+                    "@id": "#pipelines_testdata_base_path-pv"
+                },
+                {
+                    "@id": "#config_profile_name-pv"
+                },
+                {
+                    "@id": "#config_profile_description-pv"
+                },
+                {
+                    "@id": "#custom_config_version-pv"
+                },
+                {
+                    "@id": "#custom_config_base-pv"
+                },
+                {
+                    "@id": "#config_profile_contact-pv"
+                },
+                {
+                    "@id": "#config_profile_url-pv"
+                },
+                {
+                    "@id": "#max_memory-pv"
+                },
+                {
+                    "@id": "#max_cpus-pv"
+                },
+                {
+                    "@id": "#max_time-pv"
+                },
+                {
+                    "@id": "#validationFailUnrecognisedParams-pv"
+                },
+                {
+                    "@id": "#validation-fail-unrecognised-params-pv"
+                },
+                {
+                    "@id": "#validationLenientMode-pv"
+                },
+                {
+                    "@id": "#validation-lenient-mode-pv"
+                },
+                {
+                    "@id": "#validationSchemaIgnoreParams-pv"
+                },
+                {
+                    "@id": "#validation-schema-ignore-params-pv"
+                },
+                {
+                    "@id": "#validationShowHiddenParams-pv"
+                },
+                {
+                    "@id": "#validation-show-hidden-params-pv"
+                },
+                {
+                    "@id": "#validate_params-pv"
+                },
+                {
+                    "@id": "#genomes-pv"
+                },
+                {
+                    "@id": "#fasta-pv"
+                },
+                {
+                    "@id": "#validationSkipDuplicateCheck-pv"
+                },
+                {
+                    "@id": "#validation-skip-duplicate-check-pv"
+                },
+                {
+                    "@id": "#validationS3PathCheck-pv"
+                },
+                {
+                    "@id": "#validation-S3Path-check-pv"
+                },
+                {
+                    "@id": "#monochromeLogs-pv"
+                },
+                {
+                    "@id": "#monochrome-logs-pv"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R1.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R2.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE3_SE/SAMPLE3_SE_sample2_R1.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE3_SE/SAMPLE3_SE_sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R2.fastq.gz"
+                },
+                {
+                    "@id": "multiqc/multiqc_plots"
+                },
+                {
+                    "@id": "multiqc/multiqc_data"
+                },
+                {
+                    "@id": "multiqc/multiqc_report.html"
+                }
+            ]
+        },
+        {
+            "@id": "https://orcid.org/0000-0000-0000-0000",
+            "@type": "Person",
+            "name": "John Doe"
+        },
+        {
+            "@id": "#020d7efa-b627-4f55-bcb0-39801e339608",
+            "@type": "ControlAction",
+            "instrument": {
+                "@id": "main.nf#main/NFCORE_DEMO:DEMO:SEQTK_TRIM"
+            },
+            "name": "orchestrate main.nf#main/NFCORE_DEMO:DEMO:SEQTK_TRIM",
+            "object": [
+                {
+                    "@id": "#1b9cb64b48ad352570ffcbef6262a3d5"
+                },
+                {
+                    "@id": "#77139a15b3182addecdc243f30fdbb98"
+                },
+                {
+                    "@id": "#84e316e306fc252cb3e50ada4717c0a6"
+                }
+            ]
+        },
+        {
+            "@id": "#6e39b3e6-ed68-4147-a089-d6760db86f26",
+            "@type": "ControlAction",
+            "instrument": {
+                "@id": "main.nf#main/NFCORE_DEMO:DEMO:FASTQC"
+            },
+            "name": "orchestrate main.nf#main/NFCORE_DEMO:DEMO:FASTQC",
+            "object": [
+                {
+                    "@id": "#ea002b46b0fc19f96329ac1d833c2905"
+                },
+                {
+                    "@id": "#78d9829316174d7285346d7bd0f6b26b"
+                },
+                {
+                    "@id": "#2b37fd3dc1f529272a42147dcf9b563e"
+                }
+            ]
+        },
+        {
+            "@id": "#d83726f4-d824-4170-9f17-1822abbe92e5",
+            "@type": "ControlAction",
+            "instrument": {
+                "@id": "main.nf#main/NFCORE_DEMO:DEMO:MULTIQC"
+            },
+            "name": "orchestrate main.nf#main/NFCORE_DEMO:DEMO:MULTIQC",
+            "object": [
+                {
+                    "@id": "#3cc9252e1cb3b13ac2d03354898c49ab"
+                }
+            ]
+        },
+        {
+            "@id": "#1b9cb64b48ad352570ffcbef6262a3d5",
+            "@type": "CreateAction",
+            "name": "NFCORE_DEMO:DEMO:SEQTK_TRIM (SAMPLE2_PE)",
+            "instrument": {
+                "@id": "#Script_7e295c2e0487cfcb@ff1f465"
+            },
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "object": [
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/bc/6100a4f354202a13bdef4ac26796e7/sample2_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/4f/105cffba4a6a0f7957faaccfc667ff/sample2_R2.fastq.gz"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R1.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R2.fastq.gz"
+                }
+            ],
+            "actionStatus": "CompletedActionStatus"
+        },
+        {
+            "@id": "#77139a15b3182addecdc243f30fdbb98",
+            "@type": "CreateAction",
+            "name": "NFCORE_DEMO:DEMO:SEQTK_TRIM (SAMPLE3_SE)",
+            "instrument": {
+                "@id": "#Script_7e295c2e0487cfcb@ff1f465"
+            },
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "object": [
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/30/51fc62a51c205523105370f0a7a782/sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/bc/6100a4f354202a13bdef4ac26796e7/sample2_R1.fastq.gz"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "fq/SAMPLE3_SE/SAMPLE3_SE_sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE3_SE/SAMPLE3_SE_sample2_R1.fastq.gz"
+                }
+            ],
+            "actionStatus": "CompletedActionStatus"
+        },
+        {
+            "@id": "#ea002b46b0fc19f96329ac1d833c2905",
+            "@type": "CreateAction",
+            "name": "NFCORE_DEMO:DEMO:FASTQC (SAMPLE3_SE)",
+            "instrument": {
+                "@id": "#Script_ca3483cfbba7127f@438aaa9f"
+            },
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "object": [
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/30/51fc62a51c205523105370f0a7a782/sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/bc/6100a4f354202a13bdef4ac26796e7/sample2_R1.fastq.gz"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_2_fastqc.html"
+                }
+            ],
+            "actionStatus": "CompletedActionStatus"
+        },
+        {
+            "@id": "#78d9829316174d7285346d7bd0f6b26b",
+            "@type": "CreateAction",
+            "name": "NFCORE_DEMO:DEMO:FASTQC (SAMPLE2_PE)",
+            "instrument": {
+                "@id": "#Script_ca3483cfbba7127f@438aaa9f"
+            },
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "object": [
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/bc/6100a4f354202a13bdef4ac26796e7/sample2_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/4f/105cffba4a6a0f7957faaccfc667ff/sample2_R2.fastq.gz"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html"
+                }
+            ],
+            "actionStatus": "CompletedActionStatus"
+        },
+        {
+            "@id": "#2b37fd3dc1f529272a42147dcf9b563e",
+            "@type": "CreateAction",
+            "name": "NFCORE_DEMO:DEMO:FASTQC (SAMPLE1_PE)",
+            "instrument": {
+                "@id": "#Script_ca3483cfbba7127f@438aaa9f"
+            },
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "object": [
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/30/51fc62a51c205523105370f0a7a782/sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/88/9bd370508f0b0f0be8acd1f058a167/sample1_R2.fastq.gz"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html"
+                }
+            ],
+            "actionStatus": "CompletedActionStatus"
+        },
+        {
+            "@id": "#84e316e306fc252cb3e50ada4717c0a6",
+            "@type": "CreateAction",
+            "name": "NFCORE_DEMO:DEMO:SEQTK_TRIM (SAMPLE1_PE)",
+            "instrument": {
+                "@id": "#Script_7e295c2e0487cfcb@ff1f465"
+            },
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "object": [
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/30/51fc62a51c205523105370f0a7a782/sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/88/9bd370508f0b0f0be8acd1f058a167/sample1_R2.fastq.gz"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R2.fastq.gz"
+                }
+            ],
+            "actionStatus": "CompletedActionStatus"
+        },
+        {
+            "@id": "#3cc9252e1cb3b13ac2d03354898c49ab",
+            "@type": "CreateAction",
+            "name": "NFCORE_DEMO:DEMO:MULTIQC",
+            "instrument": {
+                "@id": "#Script_11299cb12a111d0f@419f0ea"
+            },
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "object": [
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/tmp/43/fe1ccc16e3c21fd0705a6e46575a89/methods_description_mqc.yaml"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/workdir/tmp/98/b41d8c84c4d4dde4f632dd7eee5c08/workflow_summary_mqc.yaml"
+                },
+                {
+                    "@id": "/tmp/nf-prov/1.1.0/demo/pipeline_info/nf_core_pipeline_software_mqc_versions.yml"
+                },
+                {
+                    "@id": "/home/felix/nf-core/demo/1_0_0/assets/multiqc_config.yml"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "multiqc/multiqc_report.html"
+                },
+                {
+                    "@id": "multiqc/multiqc_data"
+                },
+                {
+                    "@id": "multiqc/multiqc_plots"
+                }
+            ],
+            "actionStatus": "CompletedActionStatus"
+        },
+        {
+            "@id": "nextflow.config",
+            "@type": "File",
+            "name": "Effective Nextflow configuration",
+            "description": "This is the effective configuration during runtime compiled from all configuration sources. "
+        },
+        {
+            "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/bc/6100a4f354202a13bdef4ac26796e7/sample2_R1.fastq.gz",
+            "@type": "File",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/4f/105cffba4a6a0f7957faaccfc667ff/sample2_R2.fastq.gz",
+            "@type": "File",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/30/51fc62a51c205523105370f0a7a782/sample1_R1.fastq.gz",
+            "@type": "File",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "/tmp/nf-prov/1.1.0/workdir/stage-101e3cf2-8d0f-456d-a9c5-ff69a1705fc5/88/9bd370508f0b0f0be8acd1f058a167/sample1_R2.fastq.gz",
+            "@type": "File",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "/tmp/nf-prov/1.1.0/workdir/tmp/43/fe1ccc16e3c21fd0705a6e46575a89/methods_description_mqc.yaml",
+            "@type": "File",
+            "description": "",
+            "encodingFormat": ""
+        },
+        {
+            "@id": "/tmp/nf-prov/1.1.0/workdir/tmp/98/b41d8c84c4d4dde4f632dd7eee5c08/workflow_summary_mqc.yaml",
+            "@type": "File",
+            "description": "",
+            "encodingFormat": ""
+        },
+        {
+            "@id": "/tmp/nf-prov/1.1.0/demo/pipeline_info/nf_core_pipeline_software_mqc_versions.yml",
+            "@type": "File",
+            "description": "",
+            "encodingFormat": ""
+        },
+        {
+            "@id": "/home/felix/nf-core/demo/1_0_0/assets/multiqc_config.yml",
+            "@type": "File",
+            "description": "",
+            "encodingFormat": ""
+        },
+        {
+            "@id": "#input-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#input"
+            },
+            "name": "input",
+            "value": "https://raw.githubusercontent.com/nf-core/test-datasets/viralrecon/samplesheet/samplesheet_test_illumina_amplicon.csv"
+        },
+        {
+            "@id": "#genome-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#genome"
+            },
+            "name": "genome",
+            "value": null
+        },
+        {
+            "@id": "#igenomes_base-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#igenomes_base"
+            },
+            "name": "igenomes_base",
+            "value": "s3://ngi-igenomes/igenomes/"
+        },
+        {
+            "@id": "#igenomes_ignore-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#igenomes_ignore"
+            },
+            "name": "igenomes_ignore",
+            "value": false
+        },
+        {
+            "@id": "#multiqc_config-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#multiqc_config"
+            },
+            "name": "multiqc_config",
+            "value": null
+        },
+        {
+            "@id": "#multiqc_title-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#multiqc_title"
+            },
+            "name": "multiqc_title",
+            "value": null
+        },
+        {
+            "@id": "#multiqc_logo-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#multiqc_logo"
+            },
+            "name": "multiqc_logo",
+            "value": null
+        },
+        {
+            "@id": "#max_multiqc_email_size-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#max_multiqc_email_size"
+            },
+            "name": "max_multiqc_email_size",
+            "value": "25.MB"
+        },
+        {
+            "@id": "#multiqc_methods_description-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#multiqc_methods_description"
+            },
+            "name": "multiqc_methods_description",
+            "value": null
+        },
+        {
+            "@id": "#skip_trim-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#skip_trim"
+            },
+            "name": "skip_trim",
+            "value": false
+        },
+        {
+            "@id": "#outdir-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#outdir"
+            },
+            "name": "outdir",
+            "value": "/tmp//nf-prov/1.1.0/demo"
+        },
+        {
+            "@id": "#publish_dir_mode-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#publish_dir_mode"
+            },
+            "name": "publish_dir_mode",
+            "value": "copy"
+        },
+        {
+            "@id": "#email-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#email"
+            },
+            "name": "email",
+            "value": null
+        },
+        {
+            "@id": "#email_on_fail-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#email_on_fail"
+            },
+            "name": "email_on_fail",
+            "value": null
+        },
+        {
+            "@id": "#plaintext_email-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#plaintext_email"
+            },
+            "name": "plaintext_email",
+            "value": false
+        },
+        {
+            "@id": "#monochrome_logs-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#monochrome_logs"
+            },
+            "name": "monochrome_logs",
+            "value": false
+        },
+        {
+            "@id": "#hook_url-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#hook_url"
+            },
+            "name": "hook_url",
+            "value": null
+        },
+        {
+            "@id": "#help-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#help"
+            },
+            "name": "help",
+            "value": false
+        },
+        {
+            "@id": "#version-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#version"
+            },
+            "name": "version",
+            "value": false
+        },
+        {
+            "@id": "#pipelines_testdata_base_path-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#pipelines_testdata_base_path"
+            },
+            "name": "pipelines_testdata_base_path",
+            "value": "https://raw.githubusercontent.com/nf-core/test-datasets/"
+        },
+        {
+            "@id": "#config_profile_name-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#config_profile_name"
+            },
+            "name": "config_profile_name",
+            "value": "Test profile"
+        },
+        {
+            "@id": "#config_profile_description-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#config_profile_description"
+            },
+            "name": "config_profile_description",
+            "value": "Minimal test dataset to check pipeline function"
+        },
+        {
+            "@id": "#custom_config_version-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#custom_config_version"
+            },
+            "name": "custom_config_version",
+            "value": "master"
+        },
+        {
+            "@id": "#custom_config_base-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#custom_config_base"
+            },
+            "name": "custom_config_base",
+            "value": "/home/felix/nf-core/demo/1_0_0/../configs/"
+        },
+        {
+            "@id": "#config_profile_contact-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#config_profile_contact"
+            },
+            "name": "config_profile_contact",
+            "value": null
+        },
+        {
+            "@id": "#config_profile_url-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#config_profile_url"
+            },
+            "name": "config_profile_url",
+            "value": null
+        },
+        {
+            "@id": "#max_memory-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#max_memory"
+            },
+            "name": "max_memory",
+            "value": "6.GB"
+        },
+        {
+            "@id": "#max_cpus-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#max_cpus"
+            },
+            "name": "max_cpus",
+            "value": 2
+        },
+        {
+            "@id": "#max_time-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#max_time"
+            },
+            "name": "max_time",
+            "value": "6.h"
+        },
+        {
+            "@id": "#validationFailUnrecognisedParams-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validationFailUnrecognisedParams"
+            },
+            "name": "validationFailUnrecognisedParams",
+            "value": false
+        },
+        {
+            "@id": "#validation-fail-unrecognised-params-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validation-fail-unrecognised-params"
+            },
+            "name": "validation-fail-unrecognised-params",
+            "value": false
+        },
+        {
+            "@id": "#validationLenientMode-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validationLenientMode"
+            },
+            "name": "validationLenientMode",
+            "value": false
+        },
+        {
+            "@id": "#validation-lenient-mode-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validation-lenient-mode"
+            },
+            "name": "validation-lenient-mode",
+            "value": false
+        },
+        {
+            "@id": "#validationSchemaIgnoreParams-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validationSchemaIgnoreParams"
+            },
+            "name": "validationSchemaIgnoreParams",
+            "value": "genomes,igenomes_base"
+        },
+        {
+            "@id": "#validation-schema-ignore-params-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validation-schema-ignore-params"
+            },
+            "name": "validation-schema-ignore-params",
+            "value": "genomes,igenomes_base"
+        },
+        {
+            "@id": "#validationShowHiddenParams-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validationShowHiddenParams"
+            },
+            "name": "validationShowHiddenParams",
+            "value": false
+        },
+        {
+            "@id": "#validation-show-hidden-params-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validation-show-hidden-params"
+            },
+            "name": "validation-show-hidden-params",
+            "value": false
+        },
+        {
+            "@id": "#validate_params-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validate_params"
+            },
+            "name": "validate_params",
+            "value": true
+        },
+        {
+            "@id": "#genomes-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#genomes"
+            },
+            "name": "genomes",
+            "value": {
+                "GRCh37": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Homo_sapiens/Ensembl/GRCh37/Annotation/README.txt",
+                    "mito_name": "MT",
+                    "macs_gsize": "2.7e9",
+                    "blacklist": "/home/felix/nf-core/demo/1_0_0/assets/blacklists/GRCh37-blacklist.bed"
+                },
+                "GRCh38": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Annotation/Genes/genes.bed",
+                    "mito_name": "chrM",
+                    "macs_gsize": "2.7e9",
+                    "blacklist": "/home/felix/nf-core/demo/1_0_0/assets/blacklists/hg38-blacklist.bed"
+                },
+                "CHM13": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/CHM13/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/CHM13/Sequence/BWAIndex/",
+                    "bwamem2": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/CHM13/Sequence/BWAmem2Index/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/CHM13/Annotation/Genes/genes.gtf",
+                    "gff": "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/914/755/GCF_009914755.1_T2T-CHM13v2.0/GCF_009914755.1_T2T-CHM13v2.0_genomic.gff.gz",
+                    "mito_name": "chrM"
+                },
+                "GRCm38": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Mus_musculus/Ensembl/GRCm38/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Mus_musculus/Ensembl/GRCm38/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Mus_musculus/Ensembl/GRCm38/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Mus_musculus/Ensembl/GRCm38/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Mus_musculus/Ensembl/GRCm38/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Mus_musculus/Ensembl/GRCm38/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Mus_musculus/Ensembl/GRCm38/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Mus_musculus/Ensembl/GRCm38/Annotation/README.txt",
+                    "mito_name": "MT",
+                    "macs_gsize": "1.87e9",
+                    "blacklist": "/home/felix/nf-core/demo/1_0_0/assets/blacklists/GRCm38-blacklist.bed"
+                },
+                "TAIR10": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Arabidopsis_thaliana/Ensembl/TAIR10/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Arabidopsis_thaliana/Ensembl/TAIR10/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Arabidopsis_thaliana/Ensembl/TAIR10/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Arabidopsis_thaliana/Ensembl/TAIR10/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Arabidopsis_thaliana/Ensembl/TAIR10/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Arabidopsis_thaliana/Ensembl/TAIR10/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Arabidopsis_thaliana/Ensembl/TAIR10/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Arabidopsis_thaliana/Ensembl/TAIR10/Annotation/README.txt",
+                    "mito_name": "Mt"
+                },
+                "EB2": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Bacillus_subtilis_168/Ensembl/EB2/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Bacillus_subtilis_168/Ensembl/EB2/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Bacillus_subtilis_168/Ensembl/EB2/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Bacillus_subtilis_168/Ensembl/EB2/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Bacillus_subtilis_168/Ensembl/EB2/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Bacillus_subtilis_168/Ensembl/EB2/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Bacillus_subtilis_168/Ensembl/EB2/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Bacillus_subtilis_168/Ensembl/EB2/Annotation/README.txt"
+                },
+                "UMD3.1": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Bos_taurus/Ensembl/UMD3.1/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Bos_taurus/Ensembl/UMD3.1/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Bos_taurus/Ensembl/UMD3.1/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Bos_taurus/Ensembl/UMD3.1/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Bos_taurus/Ensembl/UMD3.1/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Bos_taurus/Ensembl/UMD3.1/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Bos_taurus/Ensembl/UMD3.1/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Bos_taurus/Ensembl/UMD3.1/Annotation/README.txt",
+                    "mito_name": "MT"
+                },
+                "WBcel235": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/Ensembl/WBcel235/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/Ensembl/WBcel235/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/Ensembl/WBcel235/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/Ensembl/WBcel235/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/Ensembl/WBcel235/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/Ensembl/WBcel235/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/Ensembl/WBcel235/Annotation/Genes/genes.bed",
+                    "mito_name": "MtDNA",
+                    "macs_gsize": "9e7"
+                },
+                "CanFam3.1": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Canis_familiaris/Ensembl/CanFam3.1/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Canis_familiaris/Ensembl/CanFam3.1/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Canis_familiaris/Ensembl/CanFam3.1/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Canis_familiaris/Ensembl/CanFam3.1/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Canis_familiaris/Ensembl/CanFam3.1/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Canis_familiaris/Ensembl/CanFam3.1/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Canis_familiaris/Ensembl/CanFam3.1/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Canis_familiaris/Ensembl/CanFam3.1/Annotation/README.txt",
+                    "mito_name": "MT"
+                },
+                "GRCz10": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Danio_rerio/Ensembl/GRCz10/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Danio_rerio/Ensembl/GRCz10/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Danio_rerio/Ensembl/GRCz10/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Danio_rerio/Ensembl/GRCz10/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Danio_rerio/Ensembl/GRCz10/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Danio_rerio/Ensembl/GRCz10/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Danio_rerio/Ensembl/GRCz10/Annotation/Genes/genes.bed",
+                    "mito_name": "MT"
+                },
+                "BDGP6": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/Ensembl/BDGP6/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/Ensembl/BDGP6/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/Ensembl/BDGP6/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/Ensembl/BDGP6/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/Ensembl/BDGP6/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/Ensembl/BDGP6/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/Ensembl/BDGP6/Annotation/Genes/genes.bed",
+                    "mito_name": "M",
+                    "macs_gsize": "1.2e8"
+                },
+                "EquCab2": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Equus_caballus/Ensembl/EquCab2/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Equus_caballus/Ensembl/EquCab2/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Equus_caballus/Ensembl/EquCab2/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Equus_caballus/Ensembl/EquCab2/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Equus_caballus/Ensembl/EquCab2/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Equus_caballus/Ensembl/EquCab2/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Equus_caballus/Ensembl/EquCab2/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Equus_caballus/Ensembl/EquCab2/Annotation/README.txt",
+                    "mito_name": "MT"
+                },
+                "EB1": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Escherichia_coli_K_12_DH10B/Ensembl/EB1/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Escherichia_coli_K_12_DH10B/Ensembl/EB1/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Escherichia_coli_K_12_DH10B/Ensembl/EB1/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Escherichia_coli_K_12_DH10B/Ensembl/EB1/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Escherichia_coli_K_12_DH10B/Ensembl/EB1/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Escherichia_coli_K_12_DH10B/Ensembl/EB1/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Escherichia_coli_K_12_DH10B/Ensembl/EB1/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Escherichia_coli_K_12_DH10B/Ensembl/EB1/Annotation/README.txt"
+                },
+                "Galgal4": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Gallus_gallus/Ensembl/Galgal4/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Gallus_gallus/Ensembl/Galgal4/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Gallus_gallus/Ensembl/Galgal4/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Gallus_gallus/Ensembl/Galgal4/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Gallus_gallus/Ensembl/Galgal4/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Gallus_gallus/Ensembl/Galgal4/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Gallus_gallus/Ensembl/Galgal4/Annotation/Genes/genes.bed",
+                    "mito_name": "MT"
+                },
+                "Gm01": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Glycine_max/Ensembl/Gm01/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Glycine_max/Ensembl/Gm01/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Glycine_max/Ensembl/Gm01/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Glycine_max/Ensembl/Gm01/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Glycine_max/Ensembl/Gm01/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Glycine_max/Ensembl/Gm01/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Glycine_max/Ensembl/Gm01/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Glycine_max/Ensembl/Gm01/Annotation/README.txt"
+                },
+                "Mmul_1": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Macaca_mulatta/Ensembl/Mmul_1/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Macaca_mulatta/Ensembl/Mmul_1/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Macaca_mulatta/Ensembl/Mmul_1/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Macaca_mulatta/Ensembl/Mmul_1/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Macaca_mulatta/Ensembl/Mmul_1/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Macaca_mulatta/Ensembl/Mmul_1/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Macaca_mulatta/Ensembl/Mmul_1/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Macaca_mulatta/Ensembl/Mmul_1/Annotation/README.txt",
+                    "mito_name": "MT"
+                },
+                "IRGSP-1.0": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Oryza_sativa_japonica/Ensembl/IRGSP-1.0/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Oryza_sativa_japonica/Ensembl/IRGSP-1.0/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Oryza_sativa_japonica/Ensembl/IRGSP-1.0/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Oryza_sativa_japonica/Ensembl/IRGSP-1.0/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Oryza_sativa_japonica/Ensembl/IRGSP-1.0/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Oryza_sativa_japonica/Ensembl/IRGSP-1.0/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Oryza_sativa_japonica/Ensembl/IRGSP-1.0/Annotation/Genes/genes.bed",
+                    "mito_name": "Mt"
+                },
+                "CHIMP2.1.4": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Pan_troglodytes/Ensembl/CHIMP2.1.4/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Pan_troglodytes/Ensembl/CHIMP2.1.4/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Pan_troglodytes/Ensembl/CHIMP2.1.4/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Pan_troglodytes/Ensembl/CHIMP2.1.4/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Pan_troglodytes/Ensembl/CHIMP2.1.4/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Pan_troglodytes/Ensembl/CHIMP2.1.4/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Pan_troglodytes/Ensembl/CHIMP2.1.4/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Pan_troglodytes/Ensembl/CHIMP2.1.4/Annotation/README.txt",
+                    "mito_name": "MT"
+                },
+                "Rnor_5.0": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_5.0/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_5.0/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_5.0/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_5.0/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_5.0/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_5.0/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_5.0/Annotation/Genes/genes.bed",
+                    "mito_name": "MT"
+                },
+                "Rnor_6.0": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_6.0/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_6.0/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_6.0/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_6.0/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_6.0/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_6.0/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/Ensembl/Rnor_6.0/Annotation/Genes/genes.bed",
+                    "mito_name": "MT"
+                },
+                "R64-1-1": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/Ensembl/R64-1-1/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/Ensembl/R64-1-1/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/Ensembl/R64-1-1/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/Ensembl/R64-1-1/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/Ensembl/R64-1-1/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/Ensembl/R64-1-1/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/Ensembl/R64-1-1/Annotation/Genes/genes.bed",
+                    "mito_name": "MT",
+                    "macs_gsize": "1.2e7"
+                },
+                "EF2": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Schizosaccharomyces_pombe/Ensembl/EF2/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Schizosaccharomyces_pombe/Ensembl/EF2/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Schizosaccharomyces_pombe/Ensembl/EF2/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Schizosaccharomyces_pombe/Ensembl/EF2/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Schizosaccharomyces_pombe/Ensembl/EF2/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Schizosaccharomyces_pombe/Ensembl/EF2/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Schizosaccharomyces_pombe/Ensembl/EF2/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Schizosaccharomyces_pombe/Ensembl/EF2/Annotation/README.txt",
+                    "mito_name": "MT",
+                    "macs_gsize": "1.21e7"
+                },
+                "Sbi1": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Sorghum_bicolor/Ensembl/Sbi1/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Sorghum_bicolor/Ensembl/Sbi1/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Sorghum_bicolor/Ensembl/Sbi1/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Sorghum_bicolor/Ensembl/Sbi1/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Sorghum_bicolor/Ensembl/Sbi1/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Sorghum_bicolor/Ensembl/Sbi1/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Sorghum_bicolor/Ensembl/Sbi1/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Sorghum_bicolor/Ensembl/Sbi1/Annotation/README.txt"
+                },
+                "Sscrofa10.2": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Sus_scrofa/Ensembl/Sscrofa10.2/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Sus_scrofa/Ensembl/Sscrofa10.2/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Sus_scrofa/Ensembl/Sscrofa10.2/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Sus_scrofa/Ensembl/Sscrofa10.2/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Sus_scrofa/Ensembl/Sscrofa10.2/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Sus_scrofa/Ensembl/Sscrofa10.2/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Sus_scrofa/Ensembl/Sscrofa10.2/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Sus_scrofa/Ensembl/Sscrofa10.2/Annotation/README.txt",
+                    "mito_name": "MT"
+                },
+                "AGPv3": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Zea_mays/Ensembl/AGPv3/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Zea_mays/Ensembl/AGPv3/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Zea_mays/Ensembl/AGPv3/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Zea_mays/Ensembl/AGPv3/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Zea_mays/Ensembl/AGPv3/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Zea_mays/Ensembl/AGPv3/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Zea_mays/Ensembl/AGPv3/Annotation/Genes/genes.bed",
+                    "mito_name": "Mt"
+                },
+                "hg38": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg38/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg38/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg38/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg38/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg38/Annotation/Genes/genes.bed",
+                    "mito_name": "chrM",
+                    "macs_gsize": "2.7e9",
+                    "blacklist": "/home/felix/nf-core/demo/1_0_0/assets/blacklists/hg38-blacklist.bed"
+                },
+                "hg19": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg19/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg19/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg19/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg19/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg19/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg19/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Homo_sapiens/UCSC/hg19/Annotation/README.txt",
+                    "mito_name": "chrM",
+                    "macs_gsize": "2.7e9",
+                    "blacklist": "/home/felix/nf-core/demo/1_0_0/assets/blacklists/hg19-blacklist.bed"
+                },
+                "mm10": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Mus_musculus/UCSC/mm10/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Mus_musculus/UCSC/mm10/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Mus_musculus/UCSC/mm10/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Mus_musculus/UCSC/mm10/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Mus_musculus/UCSC/mm10/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Mus_musculus/UCSC/mm10/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Mus_musculus/UCSC/mm10/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Mus_musculus/UCSC/mm10/Annotation/README.txt",
+                    "mito_name": "chrM",
+                    "macs_gsize": "1.87e9",
+                    "blacklist": "/home/felix/nf-core/demo/1_0_0/assets/blacklists/mm10-blacklist.bed"
+                },
+                "bosTau8": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Bos_taurus/UCSC/bosTau8/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Bos_taurus/UCSC/bosTau8/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Bos_taurus/UCSC/bosTau8/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Bos_taurus/UCSC/bosTau8/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Bos_taurus/UCSC/bosTau8/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Bos_taurus/UCSC/bosTau8/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Bos_taurus/UCSC/bosTau8/Annotation/Genes/genes.bed",
+                    "mito_name": "chrM"
+                },
+                "ce10": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/UCSC/ce10/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/UCSC/ce10/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/UCSC/ce10/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/UCSC/ce10/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/UCSC/ce10/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/UCSC/ce10/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/UCSC/ce10/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Caenorhabditis_elegans/UCSC/ce10/Annotation/README.txt",
+                    "mito_name": "chrM",
+                    "macs_gsize": "9e7"
+                },
+                "canFam3": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Canis_familiaris/UCSC/canFam3/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Canis_familiaris/UCSC/canFam3/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Canis_familiaris/UCSC/canFam3/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Canis_familiaris/UCSC/canFam3/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Canis_familiaris/UCSC/canFam3/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Canis_familiaris/UCSC/canFam3/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Canis_familiaris/UCSC/canFam3/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Canis_familiaris/UCSC/canFam3/Annotation/README.txt",
+                    "mito_name": "chrM"
+                },
+                "danRer10": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Danio_rerio/UCSC/danRer10/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Danio_rerio/UCSC/danRer10/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Danio_rerio/UCSC/danRer10/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Danio_rerio/UCSC/danRer10/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Danio_rerio/UCSC/danRer10/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Danio_rerio/UCSC/danRer10/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Danio_rerio/UCSC/danRer10/Annotation/Genes/genes.bed",
+                    "mito_name": "chrM",
+                    "macs_gsize": "1.37e9"
+                },
+                "dm6": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/UCSC/dm6/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/UCSC/dm6/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/UCSC/dm6/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/UCSC/dm6/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/UCSC/dm6/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/UCSC/dm6/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Drosophila_melanogaster/UCSC/dm6/Annotation/Genes/genes.bed",
+                    "mito_name": "chrM",
+                    "macs_gsize": "1.2e8"
+                },
+                "equCab2": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Equus_caballus/UCSC/equCab2/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Equus_caballus/UCSC/equCab2/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Equus_caballus/UCSC/equCab2/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Equus_caballus/UCSC/equCab2/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Equus_caballus/UCSC/equCab2/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Equus_caballus/UCSC/equCab2/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Equus_caballus/UCSC/equCab2/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Equus_caballus/UCSC/equCab2/Annotation/README.txt",
+                    "mito_name": "chrM"
+                },
+                "galGal4": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Gallus_gallus/UCSC/galGal4/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Gallus_gallus/UCSC/galGal4/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Gallus_gallus/UCSC/galGal4/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Gallus_gallus/UCSC/galGal4/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Gallus_gallus/UCSC/galGal4/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Gallus_gallus/UCSC/galGal4/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Gallus_gallus/UCSC/galGal4/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Gallus_gallus/UCSC/galGal4/Annotation/README.txt",
+                    "mito_name": "chrM"
+                },
+                "panTro4": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Pan_troglodytes/UCSC/panTro4/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Pan_troglodytes/UCSC/panTro4/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Pan_troglodytes/UCSC/panTro4/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Pan_troglodytes/UCSC/panTro4/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Pan_troglodytes/UCSC/panTro4/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Pan_troglodytes/UCSC/panTro4/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Pan_troglodytes/UCSC/panTro4/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Pan_troglodytes/UCSC/panTro4/Annotation/README.txt",
+                    "mito_name": "chrM"
+                },
+                "rn6": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/UCSC/rn6/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/UCSC/rn6/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/UCSC/rn6/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/UCSC/rn6/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/UCSC/rn6/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/UCSC/rn6/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Rattus_norvegicus/UCSC/rn6/Annotation/Genes/genes.bed",
+                    "mito_name": "chrM"
+                },
+                "sacCer3": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/UCSC/sacCer3/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/UCSC/sacCer3/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/UCSC/sacCer3/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/UCSC/sacCer3/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/UCSC/sacCer3/Sequence/BismarkIndex/",
+                    "readme": "s3://ngi-igenomes/igenomes//Saccharomyces_cerevisiae/UCSC/sacCer3/Annotation/README.txt",
+                    "mito_name": "chrM",
+                    "macs_gsize": "1.2e7"
+                },
+                "susScr3": {
+                    "fasta": "s3://ngi-igenomes/igenomes//Sus_scrofa/UCSC/susScr3/Sequence/WholeGenomeFasta/genome.fa",
+                    "bwa": "s3://ngi-igenomes/igenomes//Sus_scrofa/UCSC/susScr3/Sequence/BWAIndex/version0.6.0/",
+                    "bowtie2": "s3://ngi-igenomes/igenomes//Sus_scrofa/UCSC/susScr3/Sequence/Bowtie2Index/",
+                    "star": "s3://ngi-igenomes/igenomes//Sus_scrofa/UCSC/susScr3/Sequence/STARIndex/",
+                    "bismark": "s3://ngi-igenomes/igenomes//Sus_scrofa/UCSC/susScr3/Sequence/BismarkIndex/",
+                    "gtf": "s3://ngi-igenomes/igenomes//Sus_scrofa/UCSC/susScr3/Annotation/Genes/genes.gtf",
+                    "bed12": "s3://ngi-igenomes/igenomes//Sus_scrofa/UCSC/susScr3/Annotation/Genes/genes.bed",
+                    "readme": "s3://ngi-igenomes/igenomes//Sus_scrofa/UCSC/susScr3/Annotation/README.txt",
+                    "mito_name": "chrM"
+                }
+            }
+        },
+        {
+            "@id": "#fasta-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#fasta"
+            },
+            "name": "fasta",
+            "value": null
+        },
+        {
+            "@id": "#validationSkipDuplicateCheck-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validationSkipDuplicateCheck"
+            },
+            "name": "validationSkipDuplicateCheck",
+            "value": false
+        },
+        {
+            "@id": "#validation-skip-duplicate-check-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validation-skip-duplicate-check"
+            },
+            "name": "validation-skip-duplicate-check",
+            "value": false
+        },
+        {
+            "@id": "#validationS3PathCheck-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validationS3PathCheck"
+            },
+            "name": "validationS3PathCheck",
+            "value": false
+        },
+        {
+            "@id": "#validation-S3Path-check-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#validation-S3Path-check"
+            },
+            "name": "validation-S3Path-check",
+            "value": false
+        },
+        {
+            "@id": "#monochromeLogs-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#monochromeLogs"
+            },
+            "name": "monochromeLogs",
+            "value": false
+        },
+        {
+            "@id": "#monochrome-logs-pv",
+            "@type": "PropertyValue",
+            "exampleOfWork": {
+                "@id": "#monochrome-logs"
+            },
+            "name": "monochrome-logs",
+            "value": false
+        },
+        {
+            "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R1.fastq.gz",
+            "@type": "File",
+            "name": "SAMPLE2_PE_sample2_R1.fastq.gz",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R2.fastq.gz",
+            "@type": "File",
+            "name": "SAMPLE2_PE_sample2_R2.fastq.gz",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "fq/SAMPLE3_SE/SAMPLE3_SE_sample2_R1.fastq.gz",
+            "@type": "File",
+            "name": "SAMPLE3_SE_sample2_R1.fastq.gz",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "fq/SAMPLE3_SE/SAMPLE3_SE_sample1_R1.fastq.gz",
+            "@type": "File",
+            "name": "SAMPLE3_SE_sample1_R1.fastq.gz",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html",
+            "@type": "File",
+            "name": "SAMPLE3_SE_1_fastqc.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_2_fastqc.html",
+            "@type": "File",
+            "name": "SAMPLE3_SE_2_fastqc.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html",
+            "@type": "File",
+            "name": "SAMPLE2_PE_1_fastqc.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html",
+            "@type": "File",
+            "name": "SAMPLE2_PE_2_fastqc.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html",
+            "@type": "File",
+            "name": "SAMPLE1_PE_2_fastqc.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html",
+            "@type": "File",
+            "name": "SAMPLE1_PE_1_fastqc.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R1.fastq.gz",
+            "@type": "File",
+            "name": "SAMPLE1_PE_sample1_R1.fastq.gz",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R2.fastq.gz",
+            "@type": "File",
+            "name": "SAMPLE1_PE_sample1_R2.fastq.gz",
+            "description": "",
+            "encodingFormat": "application/gzip"
+        },
+        {
+            "@id": "multiqc/multiqc_plots",
+            "@type": "File",
+            "name": "multiqc_plots",
+            "description": "",
+            "encodingFormat": ""
+        },
+        {
+            "@id": "multiqc/multiqc_data",
+            "@type": "File",
+            "name": "multiqc_data",
+            "description": "",
+            "encodingFormat": ""
+        },
+        {
+            "@id": "multiqc/multiqc_report.html",
+            "@type": "File",
+            "name": "multiqc_report.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        }
+    ]
+}
