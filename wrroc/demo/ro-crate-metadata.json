@@ -19,7 +19,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2024-10-24",
+            "datePublished": "2024-10-27",
             "conformsTo": [
                 {
                     "@id": "https://w3id.org/ro/wfrun/process/0.1"
@@ -44,22 +44,22 @@
                     "@id": "nextflow.config"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/56/e1b937215b237da81d7e4c08bd3ab8/sample2_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/c4/690f61e357ddfdcc516fc2b126d471/sample2_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/2a/9ba1ab91737008065a3af30e4f674f/sample2_R2.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/cd/8c93be4196abc45788406d3a25e475/sample2_R2.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/81/2b27a4c6f4f63ff8326a2cafcb1cde/sample1_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/f9/0d7a40fc060ac0b695bb096fe3bee7/sample1_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/12/bb35000d6577428a4155250027e5e4/sample1_R2.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/42/f83cb4876226ac450c3a9f393010c3/sample1_R2.fastq.gz"
                 },
                 {
-                    "@id": "workdir/tmp/08/a55bd919c8f5fec68c87f7ff46996d/methods_description_mqc.yaml"
+                    "@id": "workdir/tmp/2b/91bff0288d7101debe8e9b406c7983/methods_description_mqc.yaml"
                 },
                 {
-                    "@id": "workdir/tmp/2b/12c1dfb1c6c18fcf4fdc84d3d98beb/workflow_summary_mqc.yaml"
+                    "@id": "workdir/tmp/4a/5b578b0c37e8b3ef6fa40b7b6c9c1c/workflow_summary_mqc.yaml"
                 },
                 {
                     "@id": "pipeline_info/nf_core_pipeline_software_mqc_versions.yml"
@@ -68,22 +68,22 @@
                     "@id": "assets/multiqc_config.yml"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_1_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_2_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_1_fastqc.zip"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_2_fastqc.zip"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_1_fastqc.zip"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_2_fastqc.zip"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_2_fastqc.zip"
                 },
                 {
                     "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R1.fastq.gz"
@@ -104,22 +104,22 @@
                     "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R2.fastq.gz"
                 },
                 {
-                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html"
-                },
-                {
-                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html"
-                },
-                {
-                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html"
-                },
-                {
-                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html"
+                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html"
                 },
                 {
                     "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_2_fastqc.html"
                 },
                 {
-                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html"
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html"
                 },
                 {
                     "@id": "multiqc/multiqc_plots"
@@ -131,25 +131,25 @@
                     "@id": "multiqc/multiqc_report.html"
                 },
                 {
-                    "@id": "workdir/13/444db2aa196cbe9e6c932f8485cd78/versions.yml"
+                    "@id": "workdir/aa/67c97627519c01975b875e16b289bb/versions.yml"
                 },
                 {
-                    "@id": "workdir/12/0deaaeb86e7b38c3186d78baa57db2/versions.yml"
+                    "@id": "workdir/08/2af5bad92ae38472229068df5c9bcc/versions.yml"
                 },
                 {
-                    "@id": "workdir/0f/42a78dcc2fa09dc3f2671e5caf9c5a/versions.yml"
+                    "@id": "workdir/6c/0a227eebb49f1eb2e2bcffdcbab530/versions.yml"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/versions.yml"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/versions.yml"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/versions.yml"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/versions.yml"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/versions.yml"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/versions.yml"
                 },
                 {
-                    "@id": "workdir/e5/20f24ee45cb423f79f7474b85d6dd5/versions.yml"
+                    "@id": "workdir/f9/452dfbf1d1ae77b7ca8d67449ecf51/versions.yml"
                 }
             ],
             "mainEntity": {
@@ -157,28 +157,28 @@
             },
             "mentions": [
                 {
-                    "@id": "#abfd47ba-0368-4af0-b377-71f05413abb0"
+                    "@id": "#5dfa455e-45f0-49ec-927f-a67be4bf91b9"
                 },
                 {
-                    "@id": "#13444db2aa196cbe9e6c932f8485cd78"
+                    "@id": "#aa67c97627519c01975b875e16b289bb"
                 },
                 {
-                    "@id": "#120deaaeb86e7b38c3186d78baa57db2"
+                    "@id": "#082af5bad92ae38472229068df5c9bcc"
                 },
                 {
-                    "@id": "#0f42a78dcc2fa09dc3f2671e5caf9c5a"
+                    "@id": "#6c0a227eebb49f1eb2e2bcffdcbab530"
                 },
                 {
-                    "@id": "#369535874d33021e101d1fec16906bef"
+                    "@id": "#60f3e2ddb80190309181b12fb764a3d9"
                 },
                 {
-                    "@id": "#c3840812a09b71154fbe159d7f870138"
+                    "@id": "#d764c8bb3b16f5fb5e0808ed2b6faecc"
                 },
                 {
-                    "@id": "#8ec930d384dfc431db322f01154c61e7"
+                    "@id": "#76c4191a8456a3439e12e430a6fda27c"
                 },
                 {
-                    "@id": "#e520f24ee45cb423f79f7474b85d6dd5"
+                    "@id": "#f9452dfbf1d1ae77b7ca8d67449ecf51"
                 }
             ],
             "license": {
@@ -223,13 +223,13 @@
             },
             "hasPart": [
                 {
-                    "@id": "#Script_7e295c2e0487cfcb@6df2af02"
+                    "@id": "#Script_7e295c2e0487cfcb@1f7336b2"
                 },
                 {
-                    "@id": "#Script_ca3483cfbba7127f@76b5a559"
+                    "@id": "#Script_ca3483cfbba7127f@2e8b24a1"
                 },
                 {
-                    "@id": "#Script_11299cb12a111d0f@44aeae34"
+                    "@id": "#Script_11299cb12a111d0f@40a8a26f"
                 }
             ],
             "input": [
@@ -396,17 +396,17 @@
             "version": "23.10.0"
         },
         {
-            "@id": "#Script_7e295c2e0487cfcb@6df2af02",
+            "@id": "#Script_7e295c2e0487cfcb@1f7336b2",
             "@type": "SoftwareApplication",
             "name": "NFCORE_DEMO:DEMO:SEQTK_TRIM"
         },
         {
-            "@id": "#Script_ca3483cfbba7127f@76b5a559",
+            "@id": "#Script_ca3483cfbba7127f@2e8b24a1",
             "@type": "SoftwareApplication",
             "name": "NFCORE_DEMO:DEMO:FASTQC"
         },
         {
-            "@id": "#Script_11299cb12a111d0f@44aeae34",
+            "@id": "#Script_11299cb12a111d0f@40a8a26f",
             "@type": "SoftwareApplication",
             "name": "NFCORE_DEMO:DEMO:MULTIQC"
         },
@@ -871,7 +871,7 @@
             "name": "monochrome-logs"
         },
         {
-            "@id": "#fbc0a8fc-7ea4-49c8-9f76-7f74ed725a7d",
+            "@id": "#bfeb87c1-f284-4bbf-8cb6-8b8674e81e2b",
             "@type": "SoftwareApplication",
             "name": "Nextflow 23.10.0"
         },
@@ -879,86 +879,83 @@
             "@id": "main.nf#main/NFCORE_DEMO:DEMO:SEQTK_TRIM",
             "@type": "HowToStep",
             "workExample": {
-                "@id": "#Script_7e295c2e0487cfcb@6df2af02"
+                "@id": "#Script_7e295c2e0487cfcb@1f7336b2"
             },
-            "position": 2
+            "position": "2"
         },
         {
             "@id": "main.nf#main/NFCORE_DEMO:DEMO:FASTQC",
             "@type": "HowToStep",
             "workExample": {
-                "@id": "#Script_ca3483cfbba7127f@76b5a559"
+                "@id": "#Script_ca3483cfbba7127f@2e8b24a1"
             },
-            "position": 1
+            "position": "1"
         },
         {
             "@id": "main.nf#main/NFCORE_DEMO:DEMO:MULTIQC",
             "@type": "HowToStep",
             "workExample": {
-                "@id": "#Script_11299cb12a111d0f@44aeae34"
+                "@id": "#Script_11299cb12a111d0f@40a8a26f"
             },
-            "position": 3
+            "position": "3"
         },
         {
-            "@id": "#ecdb5756-8f6c-4f09-b5f5-ff77c6fa0d96",
+            "@id": "#b918d6ed-0b70-485d-81d3-feb4b070bc32",
             "@type": "OrganizeAction",
             "agent": {
                 "@id": "https://orcid.org/0000-0000-0000-0000"
             },
             "instrument": {
-                "@id": "#fbc0a8fc-7ea4-49c8-9f76-7f74ed725a7d"
+                "@id": "#bfeb87c1-f284-4bbf-8cb6-8b8674e81e2b"
             },
             "name": "Run of Nextflow 23.10.0",
             "object": [
                 {
-                    "@id": "#7b48b78a-0af3-4a4d-ac3f-5e5b8d06054a"
+                    "@id": "#6511ae4e-5f86-455e-9f22-f9603cfb5c0b"
                 },
                 {
-                    "@id": "#e07b04b6-d15b-4122-8f85-01ed482f367e"
+                    "@id": "#c6a9777c-9f10-4dee-be86-e58743654298"
                 },
                 {
-                    "@id": "#e861fc43-e36a-40dd-8196-43482fbf59fb"
-                },
-                {
-                    "@id": "nextflow.config"
+                    "@id": "#52422cee-7426-41f0-87f3-a600012fdfa9"
                 }
             ],
             "result": {
-                "@id": "#abfd47ba-0368-4af0-b377-71f05413abb0"
+                "@id": "#5dfa455e-45f0-49ec-927f-a67be4bf91b9"
             },
-            "startTime": "2024-10-24T13:16:00.072353275+02:00",
-            "endTime": "2024-10-24T13:16:15.451510019+02:00"
+            "startTime": "2024-10-27T08:21:57.74729794+01:00",
+            "endTime": "2024-10-27T08:22:14.573782053+01:00"
         },
         {
-            "@id": "#abfd47ba-0368-4af0-b377-71f05413abb0",
+            "@id": "#5dfa455e-45f0-49ec-927f-a67be4bf91b9",
             "@type": "CreateAction",
             "agent": {
                 "@id": "https://orcid.org/0000-0000-0000-0000"
             },
-            "name": "Nextflow workflow run abfd47ba-0368-4af0-b377-71f05413abb0",
-            "startTime": "2024-10-24T13:16:00.072353275+02:00",
-            "endTime": "2024-10-24T13:16:15.451510019+02:00",
+            "name": "Nextflow workflow run 5dfa455e-45f0-49ec-927f-a67be4bf91b9",
+            "startTime": "2024-10-27T08:21:57.74729794+01:00",
+            "endTime": "2024-10-27T08:22:14.573782053+01:00",
             "instrument": {
                 "@id": "main.nf"
             },
             "object": [
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/56/e1b937215b237da81d7e4c08bd3ab8/sample2_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/c4/690f61e357ddfdcc516fc2b126d471/sample2_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/2a/9ba1ab91737008065a3af30e4f674f/sample2_R2.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/cd/8c93be4196abc45788406d3a25e475/sample2_R2.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/81/2b27a4c6f4f63ff8326a2cafcb1cde/sample1_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/f9/0d7a40fc060ac0b695bb096fe3bee7/sample1_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/12/bb35000d6577428a4155250027e5e4/sample1_R2.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/42/f83cb4876226ac450c3a9f393010c3/sample1_R2.fastq.gz"
                 },
                 {
-                    "@id": "workdir/tmp/08/a55bd919c8f5fec68c87f7ff46996d/methods_description_mqc.yaml"
+                    "@id": "workdir/tmp/2b/91bff0288d7101debe8e9b406c7983/methods_description_mqc.yaml"
                 },
                 {
-                    "@id": "workdir/tmp/2b/12c1dfb1c6c18fcf4fdc84d3d98beb/workflow_summary_mqc.yaml"
+                    "@id": "workdir/tmp/4a/5b578b0c37e8b3ef6fa40b7b6c9c1c/workflow_summary_mqc.yaml"
                 },
                 {
                     "@id": "pipeline_info/nf_core_pipeline_software_mqc_versions.yml"
@@ -967,22 +964,22 @@
                     "@id": "assets/multiqc_config.yml"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_1_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_2_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_1_fastqc.zip"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_2_fastqc.zip"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_1_fastqc.zip"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_2_fastqc.zip"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_2_fastqc.zip"
                 },
                 {
                     "@id": "#input-pv"
@@ -1143,22 +1140,22 @@
                     "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R2.fastq.gz"
                 },
                 {
-                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html"
-                },
-                {
-                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html"
-                },
-                {
-                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html"
-                },
-                {
-                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html"
+                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html"
                 },
                 {
                     "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_2_fastqc.html"
                 },
                 {
-                    "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html"
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html"
                 },
                 {
                     "@id": "multiqc/multiqc_plots"
@@ -1170,43 +1167,43 @@
                     "@id": "multiqc/multiqc_report.html"
                 },
                 {
-                    "@id": "workdir/13/444db2aa196cbe9e6c932f8485cd78/versions.yml"
+                    "@id": "workdir/aa/67c97627519c01975b875e16b289bb/versions.yml"
                 },
                 {
-                    "@id": "workdir/12/0deaaeb86e7b38c3186d78baa57db2/versions.yml"
+                    "@id": "workdir/08/2af5bad92ae38472229068df5c9bcc/versions.yml"
                 },
                 {
-                    "@id": "workdir/0f/42a78dcc2fa09dc3f2671e5caf9c5a/versions.yml"
+                    "@id": "workdir/6c/0a227eebb49f1eb2e2bcffdcbab530/versions.yml"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_1_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_2_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/versions.yml"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/versions.yml"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_1_fastqc.zip"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_2_fastqc.zip"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/versions.yml"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/versions.yml"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_1_fastqc.zip"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_2_fastqc.zip"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/versions.yml"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/versions.yml"
                 },
                 {
-                    "@id": "workdir/e5/20f24ee45cb423f79f7474b85d6dd5/versions.yml"
+                    "@id": "workdir/f9/452dfbf1d1ae77b7ca8d67449ecf51/versions.yml"
                 }
             ]
         },
@@ -1216,7 +1213,7 @@
             "name": "John Doe"
         },
         {
-            "@id": "#7b48b78a-0af3-4a4d-ac3f-5e5b8d06054a",
+            "@id": "#6511ae4e-5f86-455e-9f22-f9603cfb5c0b",
             "@type": "ControlAction",
             "instrument": {
                 "@id": "main.nf#main/NFCORE_DEMO:DEMO:SEQTK_TRIM"
@@ -1224,18 +1221,18 @@
             "name": "orchestrate main.nf#main/NFCORE_DEMO:DEMO:SEQTK_TRIM",
             "object": [
                 {
-                    "@id": "#13444db2aa196cbe9e6c932f8485cd78"
+                    "@id": "#aa67c97627519c01975b875e16b289bb"
                 },
                 {
-                    "@id": "#120deaaeb86e7b38c3186d78baa57db2"
+                    "@id": "#082af5bad92ae38472229068df5c9bcc"
                 },
                 {
-                    "@id": "#0f42a78dcc2fa09dc3f2671e5caf9c5a"
+                    "@id": "#6c0a227eebb49f1eb2e2bcffdcbab530"
                 }
             ]
         },
         {
-            "@id": "#e07b04b6-d15b-4122-8f85-01ed482f367e",
+            "@id": "#c6a9777c-9f10-4dee-be86-e58743654298",
             "@type": "ControlAction",
             "instrument": {
                 "@id": "main.nf#main/NFCORE_DEMO:DEMO:FASTQC"
@@ -1243,18 +1240,18 @@
             "name": "orchestrate main.nf#main/NFCORE_DEMO:DEMO:FASTQC",
             "object": [
                 {
-                    "@id": "#369535874d33021e101d1fec16906bef"
+                    "@id": "#60f3e2ddb80190309181b12fb764a3d9"
                 },
                 {
-                    "@id": "#c3840812a09b71154fbe159d7f870138"
+                    "@id": "#d764c8bb3b16f5fb5e0808ed2b6faecc"
                 },
                 {
-                    "@id": "#8ec930d384dfc431db322f01154c61e7"
+                    "@id": "#76c4191a8456a3439e12e430a6fda27c"
                 }
             ]
         },
         {
-            "@id": "#e861fc43-e36a-40dd-8196-43482fbf59fb",
+            "@id": "#52422cee-7426-41f0-87f3-a600012fdfa9",
             "@type": "ControlAction",
             "instrument": {
                 "@id": "main.nf#main/NFCORE_DEMO:DEMO:MULTIQC"
@@ -1262,26 +1259,26 @@
             "name": "orchestrate main.nf#main/NFCORE_DEMO:DEMO:MULTIQC",
             "object": [
                 {
-                    "@id": "#e520f24ee45cb423f79f7474b85d6dd5"
+                    "@id": "#f9452dfbf1d1ae77b7ca8d67449ecf51"
                 }
             ]
         },
         {
-            "@id": "#13444db2aa196cbe9e6c932f8485cd78",
+            "@id": "#aa67c97627519c01975b875e16b289bb",
             "@type": "CreateAction",
             "name": "NFCORE_DEMO:DEMO:SEQTK_TRIM (SAMPLE2_PE)",
             "instrument": {
-                "@id": "#Script_7e295c2e0487cfcb@6df2af02"
+                "@id": "#Script_7e295c2e0487cfcb@1f7336b2"
             },
             "agent": {
                 "@id": "https://orcid.org/0000-0000-0000-0000"
             },
             "object": [
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/56/e1b937215b237da81d7e4c08bd3ab8/sample2_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/c4/690f61e357ddfdcc516fc2b126d471/sample2_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/2a/9ba1ab91737008065a3af30e4f674f/sample2_R2.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/cd/8c93be4196abc45788406d3a25e475/sample2_R2.fastq.gz"
                 }
             ],
             "result": [
@@ -1292,27 +1289,27 @@
                     "@id": "fq/SAMPLE2_PE/SAMPLE2_PE_sample2_R2.fastq.gz"
                 },
                 {
-                    "@id": "workdir/13/444db2aa196cbe9e6c932f8485cd78/versions.yml"
+                    "@id": "workdir/aa/67c97627519c01975b875e16b289bb/versions.yml"
                 }
             ],
             "actionStatus": "CompletedActionStatus"
         },
         {
-            "@id": "#120deaaeb86e7b38c3186d78baa57db2",
+            "@id": "#082af5bad92ae38472229068df5c9bcc",
             "@type": "CreateAction",
             "name": "NFCORE_DEMO:DEMO:SEQTK_TRIM (SAMPLE3_SE)",
             "instrument": {
-                "@id": "#Script_7e295c2e0487cfcb@6df2af02"
+                "@id": "#Script_7e295c2e0487cfcb@1f7336b2"
             },
             "agent": {
                 "@id": "https://orcid.org/0000-0000-0000-0000"
             },
             "object": [
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/81/2b27a4c6f4f63ff8326a2cafcb1cde/sample1_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/f9/0d7a40fc060ac0b695bb096fe3bee7/sample1_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/56/e1b937215b237da81d7e4c08bd3ab8/sample2_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/c4/690f61e357ddfdcc516fc2b126d471/sample2_R1.fastq.gz"
                 }
             ],
             "result": [
@@ -1323,27 +1320,27 @@
                     "@id": "fq/SAMPLE3_SE/SAMPLE3_SE_sample2_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/12/0deaaeb86e7b38c3186d78baa57db2/versions.yml"
+                    "@id": "workdir/08/2af5bad92ae38472229068df5c9bcc/versions.yml"
                 }
             ],
             "actionStatus": "CompletedActionStatus"
         },
         {
-            "@id": "#0f42a78dcc2fa09dc3f2671e5caf9c5a",
+            "@id": "#6c0a227eebb49f1eb2e2bcffdcbab530",
             "@type": "CreateAction",
             "name": "NFCORE_DEMO:DEMO:SEQTK_TRIM (SAMPLE1_PE)",
             "instrument": {
-                "@id": "#Script_7e295c2e0487cfcb@6df2af02"
+                "@id": "#Script_7e295c2e0487cfcb@1f7336b2"
             },
             "agent": {
                 "@id": "https://orcid.org/0000-0000-0000-0000"
             },
             "object": [
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/81/2b27a4c6f4f63ff8326a2cafcb1cde/sample1_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/f9/0d7a40fc060ac0b695bb096fe3bee7/sample1_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/12/bb35000d6577428a4155250027e5e4/sample1_R2.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/42/f83cb4876226ac450c3a9f393010c3/sample1_R2.fastq.gz"
                 }
             ],
             "result": [
@@ -1354,101 +1351,27 @@
                     "@id": "fq/SAMPLE1_PE/SAMPLE1_PE_sample1_R2.fastq.gz"
                 },
                 {
-                    "@id": "workdir/0f/42a78dcc2fa09dc3f2671e5caf9c5a/versions.yml"
+                    "@id": "workdir/6c/0a227eebb49f1eb2e2bcffdcbab530/versions.yml"
                 }
             ],
             "actionStatus": "CompletedActionStatus"
         },
         {
-            "@id": "#369535874d33021e101d1fec16906bef",
-            "@type": "CreateAction",
-            "name": "NFCORE_DEMO:DEMO:FASTQC (SAMPLE2_PE)",
-            "instrument": {
-                "@id": "#Script_ca3483cfbba7127f@76b5a559"
-            },
-            "agent": {
-                "@id": "https://orcid.org/0000-0000-0000-0000"
-            },
-            "object": [
-                {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/56/e1b937215b237da81d7e4c08bd3ab8/sample2_R1.fastq.gz"
-                },
-                {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/2a/9ba1ab91737008065a3af30e4f674f/sample2_R2.fastq.gz"
-                }
-            ],
-            "result": [
-                {
-                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html"
-                },
-                {
-                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html"
-                },
-                {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_1_fastqc.zip"
-                },
-                {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_2_fastqc.zip"
-                },
-                {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/versions.yml"
-                }
-            ],
-            "actionStatus": "CompletedActionStatus"
-        },
-        {
-            "@id": "#c3840812a09b71154fbe159d7f870138",
-            "@type": "CreateAction",
-            "name": "NFCORE_DEMO:DEMO:FASTQC (SAMPLE1_PE)",
-            "instrument": {
-                "@id": "#Script_ca3483cfbba7127f@76b5a559"
-            },
-            "agent": {
-                "@id": "https://orcid.org/0000-0000-0000-0000"
-            },
-            "object": [
-                {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/81/2b27a4c6f4f63ff8326a2cafcb1cde/sample1_R1.fastq.gz"
-                },
-                {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/12/bb35000d6577428a4155250027e5e4/sample1_R2.fastq.gz"
-                }
-            ],
-            "result": [
-                {
-                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html"
-                },
-                {
-                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html"
-                },
-                {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_1_fastqc.zip"
-                },
-                {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_2_fastqc.zip"
-                },
-                {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/versions.yml"
-                }
-            ],
-            "actionStatus": "CompletedActionStatus"
-        },
-        {
-            "@id": "#8ec930d384dfc431db322f01154c61e7",
+            "@id": "#60f3e2ddb80190309181b12fb764a3d9",
             "@type": "CreateAction",
             "name": "NFCORE_DEMO:DEMO:FASTQC (SAMPLE3_SE)",
             "instrument": {
-                "@id": "#Script_ca3483cfbba7127f@76b5a559"
+                "@id": "#Script_ca3483cfbba7127f@2e8b24a1"
             },
             "agent": {
                 "@id": "https://orcid.org/0000-0000-0000-0000"
             },
             "object": [
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/81/2b27a4c6f4f63ff8326a2cafcb1cde/sample1_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/f9/0d7a40fc060ac0b695bb096fe3bee7/sample1_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/56/e1b937215b237da81d7e4c08bd3ab8/sample2_R1.fastq.gz"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/c4/690f61e357ddfdcc516fc2b126d471/sample2_R1.fastq.gz"
                 }
             ],
             "result": [
@@ -1459,54 +1382,128 @@
                     "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_2_fastqc.html"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_1_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_2_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/versions.yml"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/versions.yml"
                 }
             ],
             "actionStatus": "CompletedActionStatus"
         },
         {
-            "@id": "#e520f24ee45cb423f79f7474b85d6dd5",
+            "@id": "#d764c8bb3b16f5fb5e0808ed2b6faecc",
             "@type": "CreateAction",
-            "name": "NFCORE_DEMO:DEMO:MULTIQC",
+            "name": "NFCORE_DEMO:DEMO:FASTQC (SAMPLE2_PE)",
             "instrument": {
-                "@id": "#Script_11299cb12a111d0f@44aeae34"
+                "@id": "#Script_ca3483cfbba7127f@2e8b24a1"
             },
             "agent": {
                 "@id": "https://orcid.org/0000-0000-0000-0000"
             },
             "object": [
                 {
-                    "@id": "workdir/tmp/08/a55bd919c8f5fec68c87f7ff46996d/methods_description_mqc.yaml"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/c4/690f61e357ddfdcc516fc2b126d471/sample2_R1.fastq.gz"
                 },
                 {
-                    "@id": "workdir/tmp/2b/12c1dfb1c6c18fcf4fdc84d3d98beb/workflow_summary_mqc.yaml"
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/cd/8c93be4196abc45788406d3a25e475/sample2_R2.fastq.gz"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_1_fastqc.zip"
+                },
+                {
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_2_fastqc.zip"
+                },
+                {
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/versions.yml"
+                }
+            ],
+            "actionStatus": "CompletedActionStatus"
+        },
+        {
+            "@id": "#76c4191a8456a3439e12e430a6fda27c",
+            "@type": "CreateAction",
+            "name": "NFCORE_DEMO:DEMO:FASTQC (SAMPLE1_PE)",
+            "instrument": {
+                "@id": "#Script_ca3483cfbba7127f@2e8b24a1"
+            },
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "object": [
+                {
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/f9/0d7a40fc060ac0b695bb096fe3bee7/sample1_R1.fastq.gz"
+                },
+                {
+                    "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/42/f83cb4876226ac450c3a9f393010c3/sample1_R2.fastq.gz"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html"
+                },
+                {
+                    "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html"
+                },
+                {
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_1_fastqc.zip"
+                },
+                {
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_2_fastqc.zip"
+                },
+                {
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/versions.yml"
+                }
+            ],
+            "actionStatus": "CompletedActionStatus"
+        },
+        {
+            "@id": "#f9452dfbf1d1ae77b7ca8d67449ecf51",
+            "@type": "CreateAction",
+            "name": "NFCORE_DEMO:DEMO:MULTIQC",
+            "instrument": {
+                "@id": "#Script_11299cb12a111d0f@40a8a26f"
+            },
+            "agent": {
+                "@id": "https://orcid.org/0000-0000-0000-0000"
+            },
+            "object": [
+                {
+                    "@id": "workdir/tmp/2b/91bff0288d7101debe8e9b406c7983/methods_description_mqc.yaml"
+                },
+                {
+                    "@id": "workdir/tmp/4a/5b578b0c37e8b3ef6fa40b7b6c9c1c/workflow_summary_mqc.yaml"
                 },
                 {
                     "@id": "pipeline_info/nf_core_pipeline_software_mqc_versions.yml"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_1_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_2_fastqc.zip"
+                    "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_1_fastqc.zip"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_2_fastqc.zip"
+                    "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_2_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_1_fastqc.zip"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_1_fastqc.zip"
                 },
                 {
-                    "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_2_fastqc.zip"
+                    "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_2_fastqc.zip"
                 },
                 {
                     "@id": "assets/multiqc_config.yml"
@@ -1523,7 +1520,7 @@
                     "@id": "multiqc/multiqc_plots"
                 },
                 {
-                    "@id": "workdir/e5/20f24ee45cb423f79f7474b85d6dd5/versions.yml"
+                    "@id": "workdir/f9/452dfbf1d1ae77b7ca8d67449ecf51/versions.yml"
                 }
             ],
             "actionStatus": "CompletedActionStatus"
@@ -1535,42 +1532,42 @@
             "description": "This is the effective configuration during runtime compiled from all configuration sources. "
         },
         {
-            "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/56/e1b937215b237da81d7e4c08bd3ab8/sample2_R1.fastq.gz",
+            "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/c4/690f61e357ddfdcc516fc2b126d471/sample2_R1.fastq.gz",
             "@type": "File",
             "name": "sample2_R1.fastq.gz",
             "description": "",
             "encodingFormat": "application/gzip"
         },
         {
-            "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/2a/9ba1ab91737008065a3af30e4f674f/sample2_R2.fastq.gz",
+            "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/cd/8c93be4196abc45788406d3a25e475/sample2_R2.fastq.gz",
             "@type": "File",
             "name": "sample2_R2.fastq.gz",
             "description": "",
             "encodingFormat": "application/gzip"
         },
         {
-            "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/81/2b27a4c6f4f63ff8326a2cafcb1cde/sample1_R1.fastq.gz",
+            "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/f9/0d7a40fc060ac0b695bb096fe3bee7/sample1_R1.fastq.gz",
             "@type": "File",
             "name": "sample1_R1.fastq.gz",
             "description": "",
             "encodingFormat": "application/gzip"
         },
         {
-            "@id": "workdir/stage-abfd47ba-0368-4af0-b377-71f05413abb0/12/bb35000d6577428a4155250027e5e4/sample1_R2.fastq.gz",
+            "@id": "workdir/stage-5dfa455e-45f0-49ec-927f-a67be4bf91b9/42/f83cb4876226ac450c3a9f393010c3/sample1_R2.fastq.gz",
             "@type": "File",
             "name": "sample1_R2.fastq.gz",
             "description": "",
             "encodingFormat": "application/gzip"
         },
         {
-            "@id": "workdir/tmp/08/a55bd919c8f5fec68c87f7ff46996d/methods_description_mqc.yaml",
+            "@id": "workdir/tmp/2b/91bff0288d7101debe8e9b406c7983/methods_description_mqc.yaml",
             "@type": "File",
             "name": "methods_description_mqc.yaml",
             "description": "",
             "encodingFormat": ""
         },
         {
-            "@id": "workdir/tmp/2b/12c1dfb1c6c18fcf4fdc84d3d98beb/workflow_summary_mqc.yaml",
+            "@id": "workdir/tmp/4a/5b578b0c37e8b3ef6fa40b7b6c9c1c/workflow_summary_mqc.yaml",
             "@type": "File",
             "name": "workflow_summary_mqc.yaml",
             "description": "",
@@ -1591,44 +1588,44 @@
             "encodingFormat": ""
         },
         {
-            "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_1_fastqc.zip",
-            "@type": "File",
-            "name": "SAMPLE2_PE_1_fastqc.zip",
-            "description": "",
-            "encodingFormat": "application/zip"
-        },
-        {
-            "@id": "workdir/36/9535874d33021e101d1fec16906bef/SAMPLE2_PE_2_fastqc.zip",
-            "@type": "File",
-            "name": "SAMPLE2_PE_2_fastqc.zip",
-            "description": "",
-            "encodingFormat": "application/zip"
-        },
-        {
-            "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_1_fastqc.zip",
-            "@type": "File",
-            "name": "SAMPLE1_PE_1_fastqc.zip",
-            "description": "",
-            "encodingFormat": "application/zip"
-        },
-        {
-            "@id": "workdir/c3/840812a09b71154fbe159d7f870138/SAMPLE1_PE_2_fastqc.zip",
-            "@type": "File",
-            "name": "SAMPLE1_PE_2_fastqc.zip",
-            "description": "",
-            "encodingFormat": "application/zip"
-        },
-        {
-            "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_1_fastqc.zip",
+            "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_1_fastqc.zip",
             "@type": "File",
             "name": "SAMPLE3_SE_1_fastqc.zip",
             "description": "",
             "encodingFormat": "application/zip"
         },
         {
-            "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/SAMPLE3_SE_2_fastqc.zip",
+            "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/SAMPLE3_SE_2_fastqc.zip",
             "@type": "File",
             "name": "SAMPLE3_SE_2_fastqc.zip",
+            "description": "",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_1_fastqc.zip",
+            "@type": "File",
+            "name": "SAMPLE2_PE_1_fastqc.zip",
+            "description": "",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/SAMPLE2_PE_2_fastqc.zip",
+            "@type": "File",
+            "name": "SAMPLE2_PE_2_fastqc.zip",
+            "description": "",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_1_fastqc.zip",
+            "@type": "File",
+            "name": "SAMPLE1_PE_1_fastqc.zip",
+            "description": "",
+            "encodingFormat": "application/zip"
+        },
+        {
+            "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/SAMPLE1_PE_2_fastqc.zip",
+            "@type": "File",
+            "name": "SAMPLE1_PE_2_fastqc.zip",
             "description": "",
             "encodingFormat": "application/zip"
         },
@@ -1675,30 +1672,9 @@
             "encodingFormat": "application/gzip"
         },
         {
-            "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html",
+            "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html",
             "@type": "File",
-            "name": "SAMPLE2_PE_2_fastqc.html",
-            "description": "",
-            "encodingFormat": "text/html"
-        },
-        {
-            "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html",
-            "@type": "File",
-            "name": "SAMPLE2_PE_1_fastqc.html",
-            "description": "",
-            "encodingFormat": "text/html"
-        },
-        {
-            "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html",
-            "@type": "File",
-            "name": "SAMPLE1_PE_1_fastqc.html",
-            "description": "",
-            "encodingFormat": "text/html"
-        },
-        {
-            "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html",
-            "@type": "File",
-            "name": "SAMPLE1_PE_2_fastqc.html",
+            "name": "SAMPLE3_SE_1_fastqc.html",
             "description": "",
             "encodingFormat": "text/html"
         },
@@ -1710,9 +1686,30 @@
             "encodingFormat": "text/html"
         },
         {
-            "@id": "fastqc/SAMPLE3_SE/SAMPLE3_SE_1_fastqc.html",
+            "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_1_fastqc.html",
             "@type": "File",
-            "name": "SAMPLE3_SE_1_fastqc.html",
+            "name": "SAMPLE2_PE_1_fastqc.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "fastqc/SAMPLE2_PE/SAMPLE2_PE_2_fastqc.html",
+            "@type": "File",
+            "name": "SAMPLE2_PE_2_fastqc.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_2_fastqc.html",
+            "@type": "File",
+            "name": "SAMPLE1_PE_2_fastqc.html",
+            "description": "",
+            "encodingFormat": "text/html"
+        },
+        {
+            "@id": "fastqc/SAMPLE1_PE/SAMPLE1_PE_1_fastqc.html",
+            "@type": "File",
+            "name": "SAMPLE1_PE_1_fastqc.html",
             "description": "",
             "encodingFormat": "text/html"
         },
@@ -1738,49 +1735,49 @@
             "encodingFormat": "text/html"
         },
         {
-            "@id": "workdir/13/444db2aa196cbe9e6c932f8485cd78/versions.yml",
+            "@id": "workdir/aa/67c97627519c01975b875e16b289bb/versions.yml",
             "@type": "File",
             "name": "versions.yml",
             "description": "",
             "encodingFormat": ""
         },
         {
-            "@id": "workdir/12/0deaaeb86e7b38c3186d78baa57db2/versions.yml",
+            "@id": "workdir/08/2af5bad92ae38472229068df5c9bcc/versions.yml",
             "@type": "File",
             "name": "versions.yml",
             "description": "",
             "encodingFormat": ""
         },
         {
-            "@id": "workdir/0f/42a78dcc2fa09dc3f2671e5caf9c5a/versions.yml",
+            "@id": "workdir/6c/0a227eebb49f1eb2e2bcffdcbab530/versions.yml",
             "@type": "File",
             "name": "versions.yml",
             "description": "",
             "encodingFormat": ""
         },
         {
-            "@id": "workdir/36/9535874d33021e101d1fec16906bef/versions.yml",
+            "@id": "workdir/60/f3e2ddb80190309181b12fb764a3d9/versions.yml",
             "@type": "File",
             "name": "versions.yml",
             "description": "",
             "encodingFormat": ""
         },
         {
-            "@id": "workdir/c3/840812a09b71154fbe159d7f870138/versions.yml",
+            "@id": "workdir/d7/64c8bb3b16f5fb5e0808ed2b6faecc/versions.yml",
             "@type": "File",
             "name": "versions.yml",
             "description": "",
             "encodingFormat": ""
         },
         {
-            "@id": "workdir/8e/c930d384dfc431db322f01154c61e7/versions.yml",
+            "@id": "workdir/76/c4191a8456a3439e12e430a6fda27c/versions.yml",
             "@type": "File",
             "name": "versions.yml",
             "description": "",
             "encodingFormat": ""
         },
         {
-            "@id": "workdir/e5/20f24ee45cb423f79f7474b85d6dd5/versions.yml",
+            "@id": "workdir/f9/452dfbf1d1ae77b7ca8d67449ecf51/versions.yml",
             "@type": "File",
             "name": "versions.yml",
             "description": "",
