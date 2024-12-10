@@ -1,0 +1,2303 @@
+{
+    "meta": {
+        "version": "0.1"
+    },
+    "validation_settings": {
+        "profile_identifier": "provenance-run-crate-0.5",
+        "inherit_profiles": true,
+        "requirement_severity": "RECOMMENDED",
+        "abort_on_first": false,
+        "rocrate_validator_version": "0.4.6_1416833+0-dirty"
+    },
+    "passed": false,
+    "issues": [
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Application SHOULD have a url",
+            "focusNode": "./#e4e45823-ade5-4527-b2e8-fdae61bf3c62",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.3.2",
+                "label": "SHOULD 3.2",
+                "order": 2,
+                "name": "Application url",
+                "description": "The Application SHOULD have a url",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.3",
+                    "name": "ProcRC Application",
+                    "description": "Properties of a Process Run Crate Application",
+                    "order": 3,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Application SHOULD have a url",
+            "focusNode": "./#Script_7e295c2e0487cfcb@40b31a16",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.3.2",
+                "label": "SHOULD 3.2",
+                "order": 2,
+                "name": "Application url",
+                "description": "The Application SHOULD have a url",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.3",
+                    "name": "ProcRC Application",
+                    "description": "Properties of a Process Run Crate Application",
+                    "order": 3,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Application SHOULD have a url",
+            "focusNode": "./#Script_ca3483cfbba7127f@f4f843f",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.3.2",
+                "label": "SHOULD 3.2",
+                "order": 2,
+                "name": "Application url",
+                "description": "The Application SHOULD have a url",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.3",
+                    "name": "ProcRC Application",
+                    "description": "Properties of a Process Run Crate Application",
+                    "order": 3,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Application SHOULD have a url",
+            "focusNode": "./#Script_11299cb12a111d0f@61ad30f6",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.3.2",
+                "label": "SHOULD 3.2",
+                "order": 2,
+                "name": "Application url",
+                "description": "The Application SHOULD have a url",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.3",
+                    "name": "ProcRC Application",
+                    "description": "Properties of a Process Run Crate Application",
+                    "order": 3,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "REQUIRED",
+            "message": "Main Workflow file:///tmp/nf-prov/1.3.0/demo/main.nf not found in crate",
+            "focusNode": null,
+            "value": null,
+            "check": {
+                "identifier": "workflow-ro-crate-1.0.4.1",
+                "label": "REQUIRED 4.1",
+                "order": 1,
+                "name": "Main Workflow file must exist",
+                "description": "Check if the crate contains the main workflow file.",
+                "severity": "REQUIRED",
+                "requirement": {
+                    "identifier": "workflow-ro-crate-1.0.4",
+                    "name": "Main Workflow file existence",
+                    "description": "Checks for main workflow file existence.",
+                    "order": 4,
+                    "profile": {
+                        "identifier": "workflow-ro-crate-1.0",
+                        "uri": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
+                        "name": "Workflow RO-Crate Metadata Specification 1.0",
+                        "description": "Workflow RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication SHOULD have a version or softwareVersion",
+            "focusNode": "./#Script_11299cb12a111d0f@61ad30f6",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.4.1",
+                "label": "SHOULD 4.1",
+                "order": 1,
+                "name": "version or softwareVersion",
+                "description": "The SoftwareApplication SHOULD have a version or softwareVersion",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.4",
+                    "name": "ProcRC SoftwareApplication",
+                    "description": "Properties of a Process Run Crate SoftwareApplication",
+                    "order": 4,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication SHOULD have a version or softwareVersion",
+            "focusNode": "./#Script_7e295c2e0487cfcb@40b31a16",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.4.1",
+                "label": "SHOULD 4.1",
+                "order": 1,
+                "name": "version or softwareVersion",
+                "description": "The SoftwareApplication SHOULD have a version or softwareVersion",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.4",
+                    "name": "ProcRC SoftwareApplication",
+                    "description": "Properties of a Process Run Crate SoftwareApplication",
+                    "order": 4,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication SHOULD have a version or softwareVersion",
+            "focusNode": "./#Script_ca3483cfbba7127f@f4f843f",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.4.1",
+                "label": "SHOULD 4.1",
+                "order": 1,
+                "name": "version or softwareVersion",
+                "description": "The SoftwareApplication SHOULD have a version or softwareVersion",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.4",
+                    "name": "ProcRC SoftwareApplication",
+                    "description": "Properties of a Process Run Crate SoftwareApplication",
+                    "order": 4,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication SHOULD have a version or softwareVersion",
+            "focusNode": "./#e4e45823-ade5-4527-b2e8-fdae61bf3c62",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.4.1",
+                "label": "SHOULD 4.1",
+                "order": 1,
+                "name": "version or softwareVersion",
+                "description": "The SoftwareApplication SHOULD have a version or softwareVersion",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.4",
+                    "name": "ProcRC SoftwareApplication",
+                    "description": "Properties of a Process Run Crate SoftwareApplication",
+                    "order": 4,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication id SHOULD be an absolute URI",
+            "focusNode": "https://bioschemas.org/ComputationalWorkflow",
+            "value": "file:///tmp/nf-prov/1.3.0/demo/main.nf",
+            "check": {
+                "identifier": "process-run-crate-0.5.5.1",
+                "label": "SHOULD 5.1",
+                "order": 1,
+                "name": "SoftwareApplication id",
+                "description": "The SoftwareApplication id SHOULD be an absolute URI",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.5",
+                    "name": "ProcRC SoftwareApplication ID",
+                    "description": "Process Run Crate SoftwareApplication ID",
+                    "order": 5,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication id SHOULD be an absolute URI",
+            "focusNode": "http://schema.org/SoftwareApplication",
+            "value": "file:///tmp/nf-prov/1.3.0/demo/#Script_11299cb12a111d0f@61ad30f6",
+            "check": {
+                "identifier": "process-run-crate-0.5.5.1",
+                "label": "SHOULD 5.1",
+                "order": 1,
+                "name": "SoftwareApplication id",
+                "description": "The SoftwareApplication id SHOULD be an absolute URI",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.5",
+                    "name": "ProcRC SoftwareApplication ID",
+                    "description": "Process Run Crate SoftwareApplication ID",
+                    "order": 5,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication id SHOULD be an absolute URI",
+            "focusNode": "http://schema.org/SoftwareApplication",
+            "value": "file:///tmp/nf-prov/1.3.0/demo/#Script_7e295c2e0487cfcb@40b31a16",
+            "check": {
+                "identifier": "process-run-crate-0.5.5.1",
+                "label": "SHOULD 5.1",
+                "order": 1,
+                "name": "SoftwareApplication id",
+                "description": "The SoftwareApplication id SHOULD be an absolute URI",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.5",
+                    "name": "ProcRC SoftwareApplication ID",
+                    "description": "Process Run Crate SoftwareApplication ID",
+                    "order": 5,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication id SHOULD be an absolute URI",
+            "focusNode": "http://schema.org/SoftwareApplication",
+            "value": "file:///tmp/nf-prov/1.3.0/demo/#Script_ca3483cfbba7127f@f4f843f",
+            "check": {
+                "identifier": "process-run-crate-0.5.5.1",
+                "label": "SHOULD 5.1",
+                "order": 1,
+                "name": "SoftwareApplication id",
+                "description": "The SoftwareApplication id SHOULD be an absolute URI",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.5",
+                    "name": "ProcRC SoftwareApplication ID",
+                    "description": "Process Run Crate SoftwareApplication ID",
+                    "order": 5,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication id SHOULD be an absolute URI",
+            "focusNode": "http://schema.org/SoftwareApplication",
+            "value": "file:///tmp/nf-prov/1.3.0/demo/#e4e45823-ade5-4527-b2e8-fdae61bf3c62",
+            "check": {
+                "identifier": "process-run-crate-0.5.5.1",
+                "label": "SHOULD 5.1",
+                "order": 1,
+                "name": "SoftwareApplication id",
+                "description": "The SoftwareApplication id SHOULD be an absolute URI",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.5",
+                    "name": "ProcRC SoftwareApplication ID",
+                    "description": "Process Run Crate SoftwareApplication ID",
+                    "order": 5,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The SoftwareApplication id SHOULD be an absolute URI",
+            "focusNode": "http://schema.org/SoftwareSourceCode",
+            "value": "file:///tmp/nf-prov/1.3.0/demo/main.nf",
+            "check": {
+                "identifier": "process-run-crate-0.5.5.1",
+                "label": "SHOULD 5.1",
+                "order": 1,
+                "name": "SoftwareApplication id",
+                "description": "The SoftwareApplication id SHOULD be an absolute URI",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.5",
+                    "name": "ProcRC SoftwareApplication ID",
+                    "description": "Process Run Crate SoftwareApplication ID",
+                    "order": 5,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The README.md SHOULD be about the crate",
+            "focusNode": "./README.md",
+            "value": null,
+            "check": {
+                "identifier": "workflow-ro-crate-1.0.6.1",
+                "label": "SHOULD 6.1",
+                "order": 1,
+                "name": "README.md about",
+                "description": "The README.md SHOULD be about the crate",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-ro-crate-1.0.6",
+                    "name": "README.md properties",
+                    "description": "README file for the Workflow RO-Crate",
+                    "order": 6,
+                    "profile": {
+                        "identifier": "workflow-ro-crate-1.0",
+                        "uri": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
+                        "name": "Workflow RO-Crate Metadata Specification 1.0",
+                        "description": "Workflow RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The README.md SHOULD have text/markdown as its encodingFormat",
+            "focusNode": "./README.md",
+            "value": null,
+            "check": {
+                "identifier": "workflow-ro-crate-1.0.6.2",
+                "label": "SHOULD 6.2",
+                "order": 2,
+                "name": "README.md encodingFormat",
+                "description": "The README.md SHOULD have text/markdown as its encodingFormat",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-ro-crate-1.0.6",
+                    "name": "README.md properties",
+                    "description": "README file for the Workflow RO-Crate",
+                    "order": 6,
+                    "profile": {
+                        "identifier": "workflow-ro-crate-1.0",
+                        "uri": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
+                        "name": "Workflow RO-Crate Metadata Specification 1.0",
+                        "description": "Workflow RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The README.md SHOULD have text/markdown as its encodingFormat",
+            "focusNode": "./README.md",
+            "value": null,
+            "check": {
+                "identifier": "workflow-ro-crate-1.0.6.2",
+                "label": "SHOULD 6.2",
+                "order": 2,
+                "name": "README.md encodingFormat",
+                "description": "The README.md SHOULD have text/markdown as its encodingFormat",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-ro-crate-1.0.6",
+                    "name": "README.md properties",
+                    "description": "README file for the Workflow RO-Crate",
+                    "order": 6,
+                    "profile": {
+                        "identifier": "workflow-ro-crate-1.0",
+                        "uri": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
+                        "name": "Workflow RO-Crate Metadata Specification 1.0",
+                        "description": "Workflow RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have a description",
+            "focusNode": "./#5d8b6fa122a514e2bedf68cef28379f1",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.3",
+                "label": "SHOULD 8.3",
+                "order": 3,
+                "name": "Action description",
+                "description": "The Action SHOULD have a description",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have a description",
+            "focusNode": "./#94b1e50f8da4815c45f0639ef8164aae",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.3",
+                "label": "SHOULD 8.3",
+                "order": 3,
+                "name": "Action description",
+                "description": "The Action SHOULD have a description",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have a description",
+            "focusNode": "./#03184a07647596f56a7752894213e4a4",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.3",
+                "label": "SHOULD 8.3",
+                "order": 3,
+                "name": "Action description",
+                "description": "The Action SHOULD have a description",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have a description",
+            "focusNode": "./#54fddb5508d41c1268a4550ad482f1a3",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.3",
+                "label": "SHOULD 8.3",
+                "order": 3,
+                "name": "Action description",
+                "description": "The Action SHOULD have a description",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have a description",
+            "focusNode": "./#e265017a57060c7b7ccce34743fa53be",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.3",
+                "label": "SHOULD 8.3",
+                "order": 3,
+                "name": "Action description",
+                "description": "The Action SHOULD have a description",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have a description",
+            "focusNode": "./#efe1dd3138c934c5d7ce0fc9f8efbbd5",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.3",
+                "label": "SHOULD 8.3",
+                "order": 3,
+                "name": "Action description",
+                "description": "The Action SHOULD have a description",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have a description",
+            "focusNode": "./#4c2dc7c35d7748360e79a16ddfc3c910",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.3",
+                "label": "SHOULD 8.3",
+                "order": 3,
+                "name": "Action description",
+                "description": "The Action SHOULD have a description",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have a description",
+            "focusNode": "./#a2978c1f-7861-4a0f-8253-b3ca66602a6c",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.3",
+                "label": "SHOULD 8.3",
+                "order": 3,
+                "name": "Action description",
+                "description": "The Action SHOULD have a description",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have an endTime in ISO 8601 format",
+            "focusNode": "./#5d8b6fa122a514e2bedf68cef28379f1",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.4",
+                "label": "SHOULD 8.4",
+                "order": 4,
+                "name": "Action endTime",
+                "description": "The Action SHOULD have an endTime in ISO 8601 format",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have an endTime in ISO 8601 format",
+            "focusNode": "./#94b1e50f8da4815c45f0639ef8164aae",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.4",
+                "label": "SHOULD 8.4",
+                "order": 4,
+                "name": "Action endTime",
+                "description": "The Action SHOULD have an endTime in ISO 8601 format",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have an endTime in ISO 8601 format",
+            "focusNode": "./#03184a07647596f56a7752894213e4a4",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.4",
+                "label": "SHOULD 8.4",
+                "order": 4,
+                "name": "Action endTime",
+                "description": "The Action SHOULD have an endTime in ISO 8601 format",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have an endTime in ISO 8601 format",
+            "focusNode": "./#54fddb5508d41c1268a4550ad482f1a3",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.4",
+                "label": "SHOULD 8.4",
+                "order": 4,
+                "name": "Action endTime",
+                "description": "The Action SHOULD have an endTime in ISO 8601 format",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have an endTime in ISO 8601 format",
+            "focusNode": "./#e265017a57060c7b7ccce34743fa53be",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.4",
+                "label": "SHOULD 8.4",
+                "order": 4,
+                "name": "Action endTime",
+                "description": "The Action SHOULD have an endTime in ISO 8601 format",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have an endTime in ISO 8601 format",
+            "focusNode": "./#efe1dd3138c934c5d7ce0fc9f8efbbd5",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.4",
+                "label": "SHOULD 8.4",
+                "order": 4,
+                "name": "Action endTime",
+                "description": "The Action SHOULD have an endTime in ISO 8601 format",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have an endTime in ISO 8601 format",
+            "focusNode": "./#4c2dc7c35d7748360e79a16ddfc3c910",
+            "value": null,
+            "check": {
+                "identifier": "process-run-crate-0.5.8.4",
+                "label": "SHOULD 8.4",
+                "order": 4,
+                "name": "Action endTime",
+                "description": "The Action SHOULD have an endTime in ISO 8601 format",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The Action SHOULD have an endTime in ISO 8601 format",
+            "focusNode": "./#a2978c1f-7861-4a0f-8253-b3ca66602a6c",
+            "value": "2024-12-10T09:03:00.287190507+01:00",
+            "check": {
+                "identifier": "process-run-crate-0.5.8.4",
+                "label": "SHOULD 8.4",
+                "order": 4,
+                "name": "Action endTime",
+                "description": "The Action SHOULD have an endTime in ISO 8601 format",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "If present, the Action startTime SHOULD be in ISO 8601 format",
+            "focusNode": "./#a2978c1f-7861-4a0f-8253-b3ca66602a6c",
+            "value": "2024-12-10T09:02:44.174669011+01:00",
+            "check": {
+                "identifier": "process-run-crate-0.5.8.5",
+                "label": "SHOULD 8.5",
+                "order": 5,
+                "name": "Action startTime",
+                "description": "If present, the Action startTime SHOULD be in ISO 8601 format",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "process-run-crate-0.5.8",
+                    "name": "Process Run Crate Action SHOULD",
+                    "description": "Recommended properties of the Process Run Crate Action",
+                    "order": 8,
+                    "profile": {
+                        "identifier": "process-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/process/0.5",
+                        "name": "Process Run Crate 0.5",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#validationSchemaIgnoreParams",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#multiqc_logo",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#input",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#monochromeLogs",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#config_profile_name",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#custom_config_version",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#config_profile_description",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#help",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#igenomes_ignore",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#max_multiqc_email_size",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#validate_params",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#validationFailUnrecognisedParams",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#validationSkipDuplicateCheck",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#skip_trim",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#validationS3PathCheck",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#email_on_fail",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#publish_dir_mode",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#igenomes_base",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#version",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#hook_url",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#fasta",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#config_profile_url",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#config_profile_contact",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#multiqc_config",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#email",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#max_time",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#validationShowHiddenParams",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#custom_config_base",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#multiqc_title",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#genome",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#pipelines_testdata_base_path",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#genomes",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#outdir",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#monochrome_logs",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#plaintext_email",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#validationLenientMode",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#max_cpus",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#max_memory",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+            "focusNode": "./#multiqc_methods_description",
+            "value": "String",
+            "check": {
+                "identifier": "workflow-run-crate-0.5.11.1",
+                "label": "SHOULD 11.1",
+                "order": 1,
+                "name": "additionalType of Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                "description": "Check the property \"**additionalType**\" of the entity \"**Workflow Run Crate FormalParameter that maps to a PropertyValue**\"",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "workflow-run-crate-0.5.11",
+                    "name": "Workflow Run Crate FormalParameter that maps to a PropertyValue",
+                    "description": "A FormalParameter that maps to a PropertyValue SHOULD have PropertyValue or a subclass of DataType as its additionalType",
+                    "order": 11,
+                    "profile": {
+                        "identifier": "workflow-run-crate-0.5",
+                        "uri": "https://w3id.org/ro/wfrun/workflow/0.5",
+                        "name": "Workflow Run Crate 0.5",
+                        "description": "Workflow Run Crate Metadata Specification 0.5"
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./workdir/03/184a07647596f56a7752894213e4a4/versions.yml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./workdir/ef/e1dd3138c934c5d7ce0fc9f8efbbd5/versions.yml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./workdir/tmp/dd/a32ce9444de128543af6023e456b1f/workflow_summary_mqc.yaml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./pipeline_info/nf_core_pipeline_software_mqc_versions.yml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./workdir/5d/8b6fa122a514e2bedf68cef28379f1/versions.yml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./workdir/e2/65017a57060c7b7ccce34743fa53be/versions.yml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./multiqc/multiqc_data",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./workdir/4c/2dc7c35d7748360e79a16ddfc3c910/versions.yml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./workdir/54/fddb5508d41c1268a4550ad482f1a3/versions.yml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./multiqc/multiqc_plots",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./workdir/94/b1e50f8da4815c45f0639ef8164aae/versions.yml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./workdir/tmp/88/f971e68712f2867e67222ef65dc4fa/methods_description_mqc.yaml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "Missing or invalid `encodingFormat` linked to the `File Data Entity`",
+            "focusNode": "./assets/multiqc_config.yml",
+            "value": "",
+            "check": {
+                "identifier": "ro-crate-1.1.24.1",
+                "label": "RECOMMENDED 24.1",
+                "order": 1,
+                "name": "File Data Entity: RECOMMENDED `encodingFormat` property",
+                "description": "Check if the File Data Entity has a detailed description of encodings through the `encodingFormat` property.\n        The `encodingFormat` property SHOULD be a PRONOM identifier (e.g., application/pdf) or,\n        to add more detail, SHOULD be linked using a `PRONOM` to  a `Contextual Entity` of type `WebSite`\n        (see [Adding detailed descriptions of encodings](https://www.researchobject.org/ro-crate/1.1/data-entities.html#adding-detailed-descriptions-of-encodings)).\n        ",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.24",
+                    "name": "File Data Entity: RECOMMENDED properties",
+                    "description": "A `File` Data Entity SHOULD have detailed descriptions encodings through the `encodingFormat` property",
+                    "order": 24,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        },
+        {
+            "severity": "RECOMMENDED",
+            "message": "The organization SHOULD have a URL.",
+            "focusNode": "https://ror.org/000000000",
+            "value": null,
+            "check": {
+                "identifier": "ro-crate-1.1.28.2",
+                "label": "SHOULD 28.2",
+                "order": 2,
+                "name": "Organization: RECOMMENDED url property",
+                "description": "Check if the `organization` has a URL.",
+                "severity": "RECOMMENDED",
+                "requirement": {
+                    "identifier": "ro-crate-1.1.28",
+                    "name": "Organization: RECOMMENDED properties",
+                    "description": "The recommended properties for an `Organization` are `name` and `url`.",
+                    "order": 28,
+                    "profile": {
+                        "identifier": "ro-crate-1.1",
+                        "uri": "https://w3id.org/ro/crate/1.1",
+                        "name": "RO-Crate Metadata Specification 1.1",
+                        "description": "RO-Crate Metadata Specification."
+                    }
+                }
+            }
+        }
+    ]
+}
