@@ -1,0 +1,14 @@
+{
+    "meta": {
+        "version": "0.1"
+    },
+    "validation_settings": {
+        "profile_identifier": "provenance-run-crate-0.5",
+        "inherit_profiles": true,
+        "requirement_severity": "REQUIRED",
+        "abort_on_first": false,
+        "rocrate_validator_version": "0.4.6_1416833+0-dirty"
+    },
+    "passed": true,
+    "issues": []
+}
